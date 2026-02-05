@@ -1,5 +1,14 @@
 # @heroui/use-real-shape
 
+## 2.1.15-beta.0
+
+### Patch Changes
+
+- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+
+- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
+  - @vx-oss/heroui-v2-react-utils@2.1.15-beta.0
+
 ## 2.1.14
 
 ### Patch Changes

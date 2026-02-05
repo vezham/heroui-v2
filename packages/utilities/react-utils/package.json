@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-react-utils",
-  "version": "2.1.14",
+  "version": "2.1.15-beta.0",
   "description": "A set of utilities for react on client side",
   "keywords": [
     "react-utils"

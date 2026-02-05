@@ -93,5 +93,7 @@
     "@vx-oss/heroui-v2-stories-utils": "2.1.8",
     "@vx-oss/heroui-v2-test-utils": "2.1.10"
   },
-  "changesets": []
+  "changesets": [
+    "smart-bats-wave"
+  ]
 }

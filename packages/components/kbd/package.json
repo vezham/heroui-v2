@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-kbd",
-  "version": "2.2.24",
+  "version": "2.2.25-beta.0",
   "description": "The keyboard key components indicates which key or set of keys used to execute a specificv  action",
   "keywords": [
     "kbd"
@@ -36,7 +36,7 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.24"
+    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0"
   },
   "dependencies": {
     "@vx-oss/heroui-v2-system-rsc": "workspace:*",

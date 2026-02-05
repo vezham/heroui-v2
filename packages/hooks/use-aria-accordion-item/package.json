@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-aria-accordion-item",
-  "version": "2.2.19",
+  "version": "2.2.20-beta.0",
   "description": "Internal impl for react aria accordion item",
   "keywords": [
     "use-aria-accordion-item"
