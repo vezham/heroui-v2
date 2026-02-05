@@ -1,4 +1,4 @@
-import {RadioGroup, useRadio, VisuallyHidden, cn} from "@heroui/react";
+import {RadioGroup, useRadio, VisuallyHidden, cn} from "@vx-oss/heroui-v2-react";
 
 export const CustomRadio = (props) => {
   const {

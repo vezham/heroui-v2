@@ -1,6 +1,6 @@
 "use client";
 
-import {Tab, Tabs} from "@heroui/react";
+import {Tab, Tabs} from "@vx-oss/heroui-v2-react";
 
 export default function BlocksTabs() {
   return (

@@ -1,4 +1,4 @@
-import {addToast, Button} from "@heroui/react";
+import {addToast, Button} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (

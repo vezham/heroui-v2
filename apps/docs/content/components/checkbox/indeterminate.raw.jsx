@@ -1,4 +1,4 @@
-import {Checkbox} from "@heroui/react";
+import {Checkbox} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return <Checkbox isIndeterminate>Option</Checkbox>;

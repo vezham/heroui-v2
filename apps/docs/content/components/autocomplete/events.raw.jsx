@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem} from "@heroui/react";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/heroui-v2-react";
 
 export const animals = [
   {label: "Cat", key: "cat", description: "The second most popular pet in the world"},

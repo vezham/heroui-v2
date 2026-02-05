@@ -1,5 +1,5 @@
 import * as React from "react";
-import {tv, cn} from "@heroui/theme";
+import {tv, cn} from "@vx-oss/heroui-v2-theme";
 
 import {mapPropsVariants} from "./utils";
 

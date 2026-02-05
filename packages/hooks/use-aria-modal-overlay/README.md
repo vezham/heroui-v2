@@ -1,4 +1,4 @@
-# @heroui/use-aria-modal-overlay
+# @vx-oss/heroui-v2-use-aria-modal-overlay
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-aria-modal-overlay
+yarn add @vx-oss/heroui-v2-use-aria-modal-overlay
 # or
-npm i @heroui/use-aria-modal-overlay
+npm i @vx-oss/heroui-v2-use-aria-modal-overlay
 ```
 
 ## Contribution

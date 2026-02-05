@@ -8,7 +8,7 @@ import css from "refractor/lang/css";
 import diff from "refractor/lang/diff";
 import {toHtml} from "hast-util-to-html";
 import rangeParser from "parse-numeric-range";
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {Pre} from "./pre";
 import {WindowActions} from "./window-actions";

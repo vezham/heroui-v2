@@ -1,7 +1,7 @@
 import React from "react";
 import {useSandpack} from "@codesandbox/sandpack-react";
-import {Tooltip, Button} from "@heroui/react";
-import {useClipboard} from "@heroui/use-clipboard";
+import {Tooltip, Button} from "@vx-oss/heroui-v2-react";
+import {useClipboard} from "@vx-oss/heroui-v2-use-clipboard";
 
 import {CheckLinearIcon, CopyLinearIcon} from "@/components/icons";
 

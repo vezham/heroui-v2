@@ -5,10 +5,10 @@ import "@testing-library/jest-dom";
 import * as React from "react";
 import {render, renderHook, waitFor, act} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vx-oss/heroui-v2-test-utils";
 import {useForm} from "react-hook-form";
-import {Form} from "@heroui/form";
-import {HeroUIProvider} from "@heroui/system";
+import {Form} from "@vx-oss/heroui-v2-form";
+import {HeroUIProvider} from "@vx-oss/heroui-v2-system";
 
 import {Select, SelectItem, SelectSection} from "../src";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter} from "../../modal/src";

@@ -1,4 +1,4 @@
-import {DateInput} from "@heroui/react";
+import {DateInput} from "@vx-oss/heroui-v2-react";
 import {CalendarDate, parseDate} from "@internationalized/date";
 
 export const CalendarIcon = (props) => {

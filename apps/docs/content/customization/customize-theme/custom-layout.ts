@@ -1,4 +1,4 @@
-const App = `import {Button} from '@heroui/react';
+const App = `import {Button} from '@vx-oss/heroui-v2-react';
 
 export default function App() {
   return (

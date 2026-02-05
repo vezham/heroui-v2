@@ -1,9 +1,9 @@
-import type {DividerVariantProps} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system-rsc";
+import type {DividerVariantProps} from "@vx-oss/heroui-v2-theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system-rsc";
 import type {Ref} from "react";
 import type {SeparatorProps as AriaSeparatorProps} from "./use-separator";
 
-import {divider} from "@heroui/theme";
+import {divider} from "@vx-oss/heroui-v2-theme";
 import {useCallback, useMemo} from "react";
 
 import {useSeparator} from "./use-separator";

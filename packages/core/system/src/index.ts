@@ -16,7 +16,7 @@ export type {
   ExtendVariantWithSlotsProps,
   ExtendVariants,
   SharedSelection,
-} from "@heroui/system-rsc";
+} from "@vx-oss/heroui-v2-system-rsc";
 
 export {
   forwardRef,
@@ -25,7 +25,7 @@ export {
   mapPropsVariantsWithCommon,
   isHeroUIEl,
   extendVariants,
-} from "@heroui/system-rsc";
+} from "@vx-oss/heroui-v2-system-rsc";
 
 export type {HeroUIProviderProps} from "./provider";
 export type {ProviderContextProps} from "./provider-context";
@@ -34,3 +34,6 @@ export {HeroUIProvider} from "./provider";
 export {ProviderContext, useProviderContext} from "./provider-context";
 
 export {useLabelPlacement} from "./hooks";
+
+// wjdlz/NOTE: for @vx-oss/heroui-v2-ds
+export {HeroUIProvider as VezhamProvider} from "./provider";

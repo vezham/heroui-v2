@@ -1,4 +1,4 @@
-import {Alert} from "@heroui/react";
+import {Alert} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const title = "This is an alert";

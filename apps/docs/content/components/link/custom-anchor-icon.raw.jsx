@@ -1,4 +1,4 @@
-import {Link} from "@heroui/react";
+import {Link} from "@vx-oss/heroui-v2-react";
 
 export const AnchorIcon = (props) => {
   return (
@@ -29,7 +29,7 @@ export default function App() {
       isExternal
       showAnchorIcon
       anchorIcon={<AnchorIcon />}
-      href="https://github.com/heroui-inc/heroui"
+      href="https://github.com/vezham/heroui-v2"
     >
       Custom Icon
     </Link>

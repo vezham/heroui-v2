@@ -2,12 +2,12 @@ import type {UserEvent} from "@testing-library/user-event";
 
 import * as React from "react";
 import {act, render, fireEvent} from "@testing-library/react";
-import {Button} from "@heroui/button";
+import {Button} from "@vx-oss/heroui-v2-button";
 import userEvent from "@testing-library/user-event";
-import {keyCodes, shouldIgnoreReactWarning, spy} from "@heroui/test-utils";
-import {User} from "@heroui/user";
-import {Image} from "@heroui/image";
-import {Avatar} from "@heroui/avatar";
+import {keyCodes, shouldIgnoreReactWarning, spy} from "@vx-oss/heroui-v2-test-utils";
+import {User} from "@vx-oss/heroui-v2-user";
+import {Image} from "@vx-oss/heroui-v2-image";
+import {Avatar} from "@vx-oss/heroui-v2-avatar";
 
 import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, DropdownSection} from "../src";
 

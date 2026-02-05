@@ -1,4 +1,4 @@
-import {RadioGroup, Radio} from "@heroui/react";
+import {RadioGroup, Radio} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (

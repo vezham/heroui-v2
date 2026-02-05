@@ -1,4 +1,4 @@
-# @heroui/pagination
+# @vx-oss/heroui-v2-pagination
 
 The Pagination component allows you to display active page and navigate between multiple pages.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/paginatio
 ## Installation
 
 ```sh
-yarn add @heroui/pagination
+yarn add @vx-oss/heroui-v2-pagination
 # or
-npm i @heroui/pagination
+npm i @vx-oss/heroui-v2-pagination
 ```
 
 ## Contribution

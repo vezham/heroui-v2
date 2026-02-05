@@ -1,4 +1,4 @@
-import {Accordion, AccordionItem} from "@heroui/react";
+import {Accordion, AccordionItem} from "@vx-oss/heroui-v2-react";
 
 const AnchorIcon = (props) => {
   return (

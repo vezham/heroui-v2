@@ -1,4 +1,4 @@
-import {TimeInput} from "@heroui/react";
+import {TimeInput} from "@vx-oss/heroui-v2-react";
 import {parseAbsoluteToLocal, Time, ZonedDateTime} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 

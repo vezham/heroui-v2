@@ -1,13 +1,13 @@
-# @heroui/use-theme
+# @vx-oss/heroui-v2-use-theme
 
 React hook to switch between light and dark themes
 
 ## Installation
 
 ```sh
-yarn add @heroui/use-theme
+yarn add @vx-oss/heroui-v2-use-theme
 # or
-npm i @heroui/use-theme
+npm i @vx-oss/heroui-v2-use-theme
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i @heroui/use-theme
 Import `useTheme`
 
 ```tsx
-import {useTheme} from "@heroui/use-theme";
+import {useTheme} from "@vx-oss/heroui-v2-use-theme";
 ```
 
 ### theme

@@ -1,21 +1,21 @@
-import type {TableVariantProps, SlotsToClasses, TableReturnType, TableSlots} from "@heroui/theme";
+import type {TableVariantProps, SlotsToClasses, TableReturnType, TableSlots} from "@vx-oss/heroui-v2-theme";
 import type {Layout} from "@react-stately/virtualizer";
 import type {SelectionBehavior, DisabledBehavior, Node} from "@react-types/shared";
 import type {TableState, TableStateProps} from "@react-stately/table";
 import type {TableCollection} from "@react-types/table";
 import type {ReactNode, Key} from "react";
 import type {AriaTableProps} from "@react-aria/table";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
-import type {CheckboxProps} from "@heroui/checkbox";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
+import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
+import type {CheckboxProps} from "@vx-oss/heroui-v2-checkbox";
 
 import {useCallback} from "react";
 import {useTableState} from "@react-stately/table";
 import {useTable as useReactAriaTable} from "@react-aria/table";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {table, cn} from "@heroui/theme";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
-import {objectToDeps, mergeProps} from "@heroui/shared-utils";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/heroui-v2-system";
+import {table, cn} from "@vx-oss/heroui-v2-theme";
+import {useDOMRef, filterDOMProps} from "@vx-oss/heroui-v2-react-utils";
+import {objectToDeps, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
 import {useMemo} from "react";
 
 type TableContentPlacement = "inside" | "outside";

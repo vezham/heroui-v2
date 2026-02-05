@@ -1,4 +1,4 @@
-import {InputOtp} from "@heroui/react";
+import {InputOtp} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const radiusValues = ["none", "sm", "md", "lg", "full"];

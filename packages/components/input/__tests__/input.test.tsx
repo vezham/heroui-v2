@@ -4,8 +4,8 @@ import * as React from "react";
 import {render, renderHook, fireEvent, act} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import {useForm} from "react-hook-form";
-import {Form} from "@heroui/form";
-import {HeroUIProvider} from "@heroui/system";
+import {Form} from "@vx-oss/heroui-v2-form";
+import {HeroUIProvider} from "@vx-oss/heroui-v2-system";
 
 import {Input} from "../src";
 
@@ -261,7 +261,7 @@ describe("Input", () => {
       <Input
         ref={ref}
         isClearable
-        defaultValue="junior@heroui.com"
+        defaultValue="junior@vezham.com"
         label="test input"
         onClear={onClear}
       />,

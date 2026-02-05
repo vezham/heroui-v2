@@ -2,7 +2,7 @@ import type {DateValue} from "@internationalized/date";
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseRangeCalendarProps} from "./use-range-calendar";
 
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
 
 import {useRangeCalendar} from "./use-range-calendar";
 import {CalendarProvider} from "./calendar-context";

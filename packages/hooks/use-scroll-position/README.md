@@ -1,4 +1,4 @@
-# @heroui/use-scroll-position
+# @vx-oss/heroui-v2-use-scroll-position
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-scroll-position
+yarn add @vx-oss/heroui-v2-use-scroll-position
 # or
-npm i @heroui/use-scroll-position
+npm i @vx-oss/heroui-v2-use-scroll-position
 ```
 
 ## Contribution

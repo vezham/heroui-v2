@@ -12,7 +12,7 @@ import {
   ModalBody,
   ModalFooter,
   Skeleton,
-} from "@heroui/react";
+} from "@vx-oss/heroui-v2-react";
 import Link from "next/link";
 
 import {CodeWindow} from "@/components/code-window";

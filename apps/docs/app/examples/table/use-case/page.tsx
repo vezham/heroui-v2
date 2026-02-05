@@ -1,6 +1,6 @@
 "use client";
 
-import type {Selection, ChipProps, SortDescriptor} from "@heroui/react";
+import type {Selection, ChipProps, SortDescriptor} from "@vx-oss/heroui-v2-react";
 
 import {
   Table,
@@ -18,10 +18,10 @@ import {
   Chip,
   User,
   Pagination,
-} from "@heroui/react";
-import {ChevronDownIcon, SearchIcon} from "@heroui/shared-icons";
+} from "@vx-oss/heroui-v2-react";
+import {ChevronDownIcon, SearchIcon} from "@vx-oss/heroui-v2-shared-icons";
 import {useCallback, useMemo, useState} from "react";
-import {capitalize} from "@heroui/shared-utils";
+import {capitalize} from "@vx-oss/heroui-v2-shared-utils";
 
 import {PlusLinearIcon} from "@/components/icons";
 import {VerticalDotsIcon} from "@/components/icons/vertical-dots";

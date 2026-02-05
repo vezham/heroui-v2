@@ -1,8 +1,8 @@
 import React, {Children, cloneElement, useMemo} from "react";
-import {pickChildren} from "@heroui/react-utils";
-import {useAriaButton} from "@heroui/use-aria-button";
-import {Button} from "@heroui/button";
-import {mergeProps} from "@heroui/shared-utils";
+import {pickChildren} from "@vx-oss/heroui-v2-react-utils";
+import {useAriaButton} from "@vx-oss/heroui-v2-use-aria-button";
+import {Button} from "@vx-oss/heroui-v2-button";
+import {mergeProps} from "@vx-oss/heroui-v2-shared-utils";
 
 import {usePopoverContext} from "./popover-context";
 

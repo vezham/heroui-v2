@@ -8,7 +8,7 @@ import {
   User,
   Chip,
   Tooltip,
-} from "@heroui/react";
+} from "@vx-oss/heroui-v2-react";
 
 export const columns = [
   {name: "NAME", uid: "name"},

@@ -1,8 +1,8 @@
-import type {ButtonProps} from "@heroui/react";
+import type {ButtonProps} from "@vx-oss/heroui-v2-react";
 
-import {useClipboard} from "@heroui/use-clipboard";
+import {useClipboard} from "@vx-oss/heroui-v2-use-clipboard";
 import {memo} from "react";
-import {Tooltip} from "@heroui/react";
+import {Tooltip} from "@vx-oss/heroui-v2-react";
 
 import {PreviewButton} from "./preview-button";
 

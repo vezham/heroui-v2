@@ -1,8 +1,8 @@
 import type {UseLinkProps} from "./use-link";
 
-import {forwardRef} from "@heroui/system";
-import {LinkIcon} from "@heroui/shared-icons";
-import {linkAnchorClasses} from "@heroui/theme";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {LinkIcon} from "@vx-oss/heroui-v2-shared-icons";
+import {linkAnchorClasses} from "@vx-oss/heroui-v2-theme";
 
 import {useLink} from "./use-link";
 

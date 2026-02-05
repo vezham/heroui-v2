@@ -1,7 +1,7 @@
 import type {UseDrawerProps} from "./use-drawer";
 
-import {forwardRef} from "@heroui/system";
-import {Modal} from "@heroui/modal";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {Modal} from "@vx-oss/heroui-v2-modal";
 
 import {useDrawer} from "./use-drawer";
 

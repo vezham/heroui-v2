@@ -1,7 +1,7 @@
 import type {UseCardProps} from "./use-card";
 
-import {forwardRef} from "@heroui/system";
-import {Ripple} from "@heroui/ripple";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {Ripple} from "@vx-oss/heroui-v2-ripple";
 
 import {CardProvider} from "./card-context";
 import {useCard} from "./use-card";

@@ -1,6 +1,6 @@
 import type {SlotsToClasses} from "./types";
 
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 /**
  * Merges two sets of class names for each slot in a component.

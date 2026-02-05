@@ -1,4 +1,4 @@
-# @heroui/use-aria-button
+# @vx-oss/heroui-v2-use-aria-button
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-aria-button
+yarn add @vx-oss/heroui-v2-use-aria-button
 # or
-npm i @heroui/use-aria-button
+npm i @vx-oss/heroui-v2-use-aria-button
 ```
 
 ## Contribution

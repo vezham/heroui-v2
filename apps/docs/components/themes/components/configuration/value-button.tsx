@@ -1,5 +1,5 @@
-import {Button} from "@heroui/react";
-import {cn} from "@heroui/theme";
+import {Button} from "@vx-oss/heroui-v2-react";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 interface ValueButtonProps<T extends string | number> {
   currentValue: T;

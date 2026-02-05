@@ -1,6 +1,6 @@
 import type {Template, TemplateType} from "../types";
 
-import {cn, Select, SelectItem} from "@heroui/react";
+import {cn, Select, SelectItem} from "@vx-oss/heroui-v2-react";
 
 import {templates} from "../templates";
 

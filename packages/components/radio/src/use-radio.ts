@@ -1,17 +1,17 @@
 import type {AriaRadioProps} from "@react-types/radio";
-import type {RadioVariantProps, RadioSlots, SlotsToClasses} from "@heroui/theme";
+import type {RadioVariantProps, RadioSlots, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
 import type {Ref, ReactNode} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 
 import {useCallback, useId} from "react";
 import {useMemo, useRef} from "react";
 import {useFocusRing} from "@react-aria/focus";
 import {useHover} from "@react-aria/interactions";
-import {radio, cn} from "@heroui/theme";
+import {radio, cn} from "@vx-oss/heroui-v2-theme";
 import {useRadio as useReactAriaRadio} from "@react-aria/radio";
-import {useProviderContext} from "@heroui/system";
-import {__DEV__, warn, dataAttr, chain, mergeProps} from "@heroui/shared-utils";
-import {useDOMRef} from "@heroui/react-utils";
+import {useProviderContext} from "@vx-oss/heroui-v2-system";
+import {__DEV__, warn, dataAttr, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {useDOMRef} from "@vx-oss/heroui-v2-react-utils";
 
 import {useRadioGroupContext} from "./radio-group-context";
 

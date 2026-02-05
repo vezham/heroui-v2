@@ -1,9 +1,9 @@
-import type {HTMLHeroUIProps} from "@heroui/system";
+import type {HTMLHeroUIProps} from "@vx-oss/heroui-v2-system";
 
-import {forwardRef} from "@heroui/system";
-import {useDOMRef} from "@heroui/react-utils";
-import {dataAttr} from "@heroui/shared-utils";
-import {cn} from "@heroui/theme";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {useDOMRef} from "@vx-oss/heroui-v2-react-utils";
+import {dataAttr} from "@vx-oss/heroui-v2-shared-utils";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {useNavbarContext} from "./navbar-context";
 

@@ -1,4 +1,4 @@
-import {Switch, cn} from "@heroui/react";
+import {Switch, cn} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (

@@ -1,8 +1,8 @@
 import type {UseNumberInputProps} from "./use-number-input";
 
-import {CloseFilledIcon} from "@heroui/shared-icons";
+import {CloseFilledIcon} from "@vx-oss/heroui-v2-shared-icons";
 import {useMemo} from "react";
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
 
 import {useNumberInput} from "./use-number-input";
 import NumberInputStepper from "./number-input-stepper";

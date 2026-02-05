@@ -1,4 +1,4 @@
-import {Checkbox, Link, User, Chip, cn} from "@heroui/react";
+import {Checkbox, Link, User, Chip, cn} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [isSelected, setIsSelected] = React.useState(false);

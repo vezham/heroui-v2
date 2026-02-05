@@ -1,4 +1,4 @@
-import {Calendar} from "@heroui/react";
+import {Calendar} from "@vx-oss/heroui-v2-react";
 import {parseDate} from "@internationalized/date";
 
 export default function App() {

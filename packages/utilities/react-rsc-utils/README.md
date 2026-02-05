@@ -1,4 +1,4 @@
-# @heroui/react-rsc-utils
+# @vx-oss/heroui-v2-react-rsc-utils
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/react-rsc-utils
+yarn add @vx-oss/heroui-v2-react-rsc-utils
 # or
-npm i @heroui/react-rsc-utils
+npm i @vx-oss/heroui-v2-react-rsc-utils
 ```
 
 ## Contribution

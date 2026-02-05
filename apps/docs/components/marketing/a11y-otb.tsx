@@ -9,15 +9,15 @@ import {
   DropdownMenu,
   DropdownItem,
   Tooltip,
-} from "@heroui/react";
+} from "@vx-oss/heroui-v2-react";
 import {useInView} from "framer-motion";
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@heroui/shared-icons";
+} from "@vx-oss/heroui-v2-shared-icons";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import {Fragment, useEffect, useRef, useState} from "react";

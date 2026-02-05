@@ -1,4 +1,4 @@
-import {addToast, Button, cn} from "@heroui/react";
+import {addToast, Button, cn} from "@vx-oss/heroui-v2-react";
 
 const CustomToastComponent = () => {
   return (

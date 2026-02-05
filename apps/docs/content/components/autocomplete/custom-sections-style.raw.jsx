@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem, AutocompleteSection} from "@heroui/react";
+import {Autocomplete, AutocompleteItem, AutocompleteSection} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const headingClasses =

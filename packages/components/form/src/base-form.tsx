@@ -9,7 +9,7 @@ import type {ContextValue, DOMProps} from "./utils";
 
 import {FormValidationContext} from "@react-stately/form";
 import React, {createContext, forwardRef, useMemo} from "react";
-import {form} from "@heroui/theme";
+import {form} from "@vx-oss/heroui-v2-theme";
 
 import {useContextProps} from "./utils";
 

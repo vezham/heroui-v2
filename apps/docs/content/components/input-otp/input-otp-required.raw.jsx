@@ -1,4 +1,4 @@
-import {Button, InputOtp, Form} from "@heroui/react";
+import {Button, InputOtp, Form} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [otp, setOtp] = React.useState("");

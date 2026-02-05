@@ -1,4 +1,4 @@
-import type {HeroUIPluginConfig} from "@heroui/theme";
+import type {HeroUIPluginConfig} from "@vx-oss/heroui-v2-theme";
 import type {Config, ThemeType} from "../types";
 
 import {readableColor} from "color2k";

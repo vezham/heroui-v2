@@ -1,6 +1,6 @@
 import React from "react";
 import {tv} from "tailwind-variants";
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 export type WindowActionsProps = {
   title?: string;

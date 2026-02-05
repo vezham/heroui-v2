@@ -8,7 +8,7 @@ import {
   useDisclosure,
   RadioGroup,
   Radio,
-} from "@heroui/react";
+} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();

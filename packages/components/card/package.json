@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/card",
+  "name": "@vx-oss/heroui-v2-card",
   "version": "2.2.27",
   "description": "Card is a container for text, photos, and actions in the context of a single subject.",
   "keywords": [
     "card"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui-v2.git",
     "directory": "packages/components/card"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui-v2/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,26 +37,26 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@heroui/theme": ">=2.4.24",
-    "@heroui/system": ">=2.4.18"
+    "@vx-oss/heroui-v2-theme": ">=2.4.24",
+    "@vx-oss/heroui-v2-system": ">=2.4.18"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/use-aria-button": "workspace:*",
-    "@heroui/ripple": "workspace:*",
+    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
+    "@vx-oss/heroui-v2-react-utils": "workspace:*",
+    "@vx-oss/heroui-v2-use-aria-button": "workspace:*",
+    "@vx-oss/heroui-v2-ripple": "workspace:*",
     "@react-aria/focus": "3.21.3",
     "@react-aria/interactions": "3.26.0",
     "@react-types/shared": "3.32.1"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/system": "workspace:*",
-    "@heroui/code": "workspace:*",
-    "@heroui/link": "workspace:*",
-    "@heroui/button": "workspace:*",
-    "@heroui/avatar": "workspace:*",
-    "@heroui/image": "workspace:*",
+    "@vx-oss/heroui-v2-theme": "workspace:*",
+    "@vx-oss/heroui-v2-system": "workspace:*",
+    "@vx-oss/heroui-v2-code": "workspace:*",
+    "@vx-oss/heroui-v2-link": "workspace:*",
+    "@vx-oss/heroui-v2-button": "workspace:*",
+    "@vx-oss/heroui-v2-avatar": "workspace:*",
+    "@vx-oss/heroui-v2-image": "workspace:*",
     "framer-motion": "11.18.2",
     "clean-package": "2.2.0",
     "react": "18.3.0",

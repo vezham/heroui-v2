@@ -1,25 +1,25 @@
 import type {DateValue} from "@internationalized/date";
-import type {TimeInputProps} from "@heroui/date-input";
-import type {ButtonProps} from "@heroui/button";
-import type {RangeCalendarProps} from "@heroui/calendar";
-import type {PopoverProps} from "@heroui/popover";
+import type {TimeInputProps} from "@vx-oss/heroui-v2-date-input";
+import type {ButtonProps} from "@vx-oss/heroui-v2-button";
+import type {RangeCalendarProps} from "@vx-oss/heroui-v2-calendar";
+import type {PopoverProps} from "@vx-oss/heroui-v2-popover";
 import type {DOMAttributes, GroupDOMAttributes} from "@react-types/shared";
 import type {AriaDateRangePickerProps} from "@react-types/datepicker";
 import type {DateRangePickerState} from "@react-stately/datepicker";
 import type {UseDatePickerBaseProps} from "./use-date-picker-base";
-import type {PropGetter} from "@heroui/system";
+import type {PropGetter} from "@vx-oss/heroui-v2-system";
 import type {DateRangePickerFieldProps} from "./date-range-picker-field";
-import type {DateInputGroupProps} from "@heroui/date-input";
-import type {DateRangePickerSlots, SlotsToClasses} from "@heroui/theme";
-import type {DateInputProps} from "@heroui/date-input";
+import type {DateInputGroupProps} from "@vx-oss/heroui-v2-date-input";
+import type {DateRangePickerSlots, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
+import type {DateInputProps} from "@vx-oss/heroui-v2-date-input";
 
-import {useLabelPlacement, useProviderContext} from "@heroui/system";
+import {useLabelPlacement, useProviderContext} from "@vx-oss/heroui-v2-system";
 import {useMemo, useRef, useEffect} from "react";
 import {useDateRangePickerState} from "@react-stately/datepicker";
 import {useDateRangePicker as useAriaDateRangePicker} from "@react-aria/datepicker";
-import {dataAttr, objectToDeps, mergeProps} from "@heroui/shared-utils";
-import {dateRangePicker, dateInput, cn} from "@heroui/theme";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {dataAttr, objectToDeps, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {dateRangePicker, dateInput, cn} from "@vx-oss/heroui-v2-theme";
+import {FormContext, useSlottedContext} from "@vx-oss/heroui-v2-form";
 
 import {useDatePickerBase} from "./use-date-picker-base";
 interface Props<T extends DateValue>

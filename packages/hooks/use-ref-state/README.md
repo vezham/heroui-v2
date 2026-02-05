@@ -1,4 +1,4 @@
-# @heroui/use-ref-state
+# @vx-oss/heroui-v2-use-ref-state
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-ref-state
+yarn add @vx-oss/heroui-v2-use-ref-state
 # or
-npm i @heroui/use-ref-state
+npm i @vx-oss/heroui-v2-use-ref-state
 ```
 
 ## Contribution

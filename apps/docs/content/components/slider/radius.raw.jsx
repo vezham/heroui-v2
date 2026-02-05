@@ -1,4 +1,4 @@
-import {Slider} from "@heroui/react";
+import {Slider} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const radius = ["full", "lg", "md", "sm", "none"];

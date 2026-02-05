@@ -1,7 +1,7 @@
-import type {MenuTriggerAction} from "@heroui/react";
+import type {MenuTriggerAction} from "@vx-oss/heroui-v2-react";
 
 import React from "react";
-import {Autocomplete, AutocompleteItem} from "@heroui/react";
+import {Autocomplete, AutocompleteItem} from "@vx-oss/heroui-v2-react";
 import {useFilter} from "@react-aria/i18n";
 
 export type FieldState = {

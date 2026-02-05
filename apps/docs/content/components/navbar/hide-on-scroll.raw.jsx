@@ -1,4 +1,4 @@
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@heroui/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@vx-oss/heroui-v2-react";
 
 export const AcmeLogo = () => {
   return (

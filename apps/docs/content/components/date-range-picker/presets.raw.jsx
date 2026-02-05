@@ -1,4 +1,4 @@
-import {DateRangePicker, Radio, RadioGroup, Button, ButtonGroup, cn} from "@heroui/react";
+import {DateRangePicker, Radio, RadioGroup, Button, ButtonGroup, cn} from "@vx-oss/heroui-v2-react";
 import {
   today,
   startOfWeek,

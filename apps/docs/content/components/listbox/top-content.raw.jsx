@@ -1,4 +1,4 @@
-import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar} from "@heroui/react";
+import {Listbox, ListboxItem, Chip, ScrollShadow, Avatar} from "@vx-oss/heroui-v2-react";
 
 export const users = [
   {

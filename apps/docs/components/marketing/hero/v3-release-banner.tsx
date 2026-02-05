@@ -1,6 +1,6 @@
 "use client";
 
-import {Chip} from "@heroui/react";
+import {Chip} from "@vx-oss/heroui-v2-react";
 import {Icon} from "@iconify/react/dist/offline";
 import arrowRightUpIcon from "@iconify/icons-solar/arrow-right-up-linear";
 

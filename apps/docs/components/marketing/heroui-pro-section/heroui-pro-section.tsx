@@ -1,5 +1,5 @@
 import {memo} from "react";
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {sectionWrapper, title, titleWrapper, subtitle} from "../../primitives";
 import Marquee from "../marquee";

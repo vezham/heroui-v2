@@ -1,4 +1,4 @@
-# @heroui/progress
+# @vx-oss/heroui-v2-progress
 
 The Progress component allows you to view the progress of any activity.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/progress)
 ## Installation
 
 ```sh
-yarn add @heroui/progress
+yarn add @vx-oss/heroui-v2-progress
 # or
-npm i @heroui/progress
+npm i @vx-oss/heroui-v2-progress
 ```
 
 ## Contribution

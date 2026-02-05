@@ -4,13 +4,13 @@ import type {UseDateRangePickerProps} from "./use-date-range-picker";
 
 import {useMemo} from "react";
 import {cloneElement, isValidElement} from "react";
-import {forwardRef} from "@heroui/system";
-import {Button} from "@heroui/button";
-import {TimeInput, DateInputGroup} from "@heroui/date-input";
-import {FreeSoloPopover} from "@heroui/popover";
-import {RangeCalendar} from "@heroui/calendar";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {Button} from "@vx-oss/heroui-v2-button";
+import {TimeInput, DateInputGroup} from "@vx-oss/heroui-v2-date-input";
+import {FreeSoloPopover} from "@vx-oss/heroui-v2-popover";
+import {RangeCalendar} from "@vx-oss/heroui-v2-calendar";
 import {AnimatePresence} from "framer-motion";
-import {CalendarBoldIcon} from "@heroui/shared-icons";
+import {CalendarBoldIcon} from "@vx-oss/heroui-v2-shared-icons";
 
 import DateRangePickerField from "./date-range-picker-field";
 import {useDateRangePicker} from "./use-date-range-picker";

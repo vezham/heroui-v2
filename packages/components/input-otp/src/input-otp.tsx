@@ -1,6 +1,6 @@
 import type {UseInputOtpProps} from "./use-input-otp";
 
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
 import {useMemo} from "react";
 import {OTPInput} from "input-otp";
 

@@ -1,4 +1,4 @@
-# @heroui/menu
+# @vx-oss/heroui-v2-menu
 
 A menu displays a list of options and allows a user to select one or more of them.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/menu) for
 ## Installation
 
 ```sh
-yarn add @heroui/menu
+yarn add @vx-oss/heroui-v2-menu
 # or
-npm i @heroui/menu
+npm i @vx-oss/heroui-v2-menu
 ```
 
 ## Contribution

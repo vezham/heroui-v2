@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/use-scroll-position",
+  "name": "@vx-oss/heroui-v2-use-scroll-position",
   "version": "2.1.8",
   "description": "Provides the logic to control the scroll over an element",
   "keywords": [
     "use-scroll-position"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui-v2.git",
     "directory": "packages/hooks/use-scroll-position"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui-v2/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

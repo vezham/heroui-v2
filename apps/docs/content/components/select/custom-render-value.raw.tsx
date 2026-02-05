@@ -1,7 +1,7 @@
-import type {SelectedItems} from "@heroui/react";
+import type {SelectedItems} from "@vx-oss/heroui-v2-react";
 
 import React from "react";
-import {Select, SelectItem, Avatar} from "@heroui/react";
+import {Select, SelectItem, Avatar} from "@vx-oss/heroui-v2-react";
 
 export const users = [
   {

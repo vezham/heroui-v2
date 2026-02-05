@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/kbd",
+  "name": "@vx-oss/heroui-v2-kbd",
   "version": "2.2.24",
   "description": "The keyboard key components indicates which key or set of keys used to execute a specificv  action",
   "keywords": [
     "kbd"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui-v2.git",
     "directory": "packages/components/kbd"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui-v2/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,16 +36,16 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@heroui/theme": ">=2.4.24"
+    "@vx-oss/heroui-v2-theme": ">=2.4.24"
   },
   "dependencies": {
-    "@heroui/system-rsc": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/react-utils": "workspace:*"
+    "@vx-oss/heroui-v2-system-rsc": "workspace:*",
+    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
+    "@vx-oss/heroui-v2-react-utils": "workspace:*"
   },
   "devDependencies": {
-    "@heroui/theme": "workspace:*",
-    "@heroui/test-utils": "workspace:*",
+    "@vx-oss/heroui-v2-theme": "workspace:*",
+    "@vx-oss/heroui-v2-test-utils": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

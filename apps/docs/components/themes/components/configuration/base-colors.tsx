@@ -1,6 +1,6 @@
 import type {Config, ThemeType} from "../../types";
 
-import {Tooltip} from "@heroui/react";
+import {Tooltip} from "@vx-oss/heroui-v2-react";
 
 import {colorsId} from "../../constants";
 import {setCssColor} from "../../css-vars";

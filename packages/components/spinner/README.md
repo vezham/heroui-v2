@@ -1,4 +1,4 @@
-# @heroui/loading
+# @vx-oss/heroui-v2-loading
 
 Spinner express an unspecified wait time or display the length of a process.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/loading) 
 ## Installation
 
 ```sh
-yarn add @heroui/loading
+yarn add @vx-oss/heroui-v2-loading
 # or
-npm i @heroui/loading
+npm i @vx-oss/heroui-v2-loading
 ```
 
 ## Contribution

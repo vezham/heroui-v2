@@ -1,6 +1,6 @@
 import type {ConfigColors} from "../../types";
 
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 interface SwatchProps {
   colors: {background: string} & ConfigColors["baseColor"];

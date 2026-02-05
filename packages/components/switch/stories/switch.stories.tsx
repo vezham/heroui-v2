@@ -2,11 +2,11 @@ import type {Meta} from "@storybook/react";
 import type {SwitchProps, SwitchThumbIconProps} from "../src";
 
 import React from "react";
-import {toggle} from "@heroui/theme";
+import {toggle} from "@vx-oss/heroui-v2-theme";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {SunFilledIcon, MoonFilledIcon} from "@heroui/shared-icons";
-import {cn} from "@heroui/theme";
-import {button} from "@heroui/theme";
+import {SunFilledIcon, MoonFilledIcon} from "@vx-oss/heroui-v2-shared-icons";
+import {cn} from "@vx-oss/heroui-v2-theme";
+import {button} from "@vx-oss/heroui-v2-theme";
 import {useForm} from "react-hook-form";
 
 import {Switch, useSwitch} from "../src";

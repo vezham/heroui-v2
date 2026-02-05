@@ -1,14 +1,14 @@
-import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@heroui/theme";
+import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@vx-oss/heroui-v2-theme";
 import type {ImgHTMLAttributes} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
+import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 
 import {useCallback} from "react";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {image, cn} from "@heroui/theme";
-import {useDOMRef} from "@heroui/react-utils";
-import {dataAttr, objectToDeps} from "@heroui/shared-utils";
-import {useImage as useImageBase} from "@heroui/use-image";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/heroui-v2-system";
+import {image, cn} from "@vx-oss/heroui-v2-theme";
+import {useDOMRef} from "@vx-oss/heroui-v2-react-utils";
+import {dataAttr, objectToDeps} from "@vx-oss/heroui-v2-shared-utils";
+import {useImage as useImageBase} from "@vx-oss/heroui-v2-use-image";
 import {useMemo} from "react";
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 

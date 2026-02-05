@@ -1,4 +1,4 @@
-import {useCheckbox, Chip, VisuallyHidden, tv} from "@heroui/react";
+import {useCheckbox, Chip, VisuallyHidden, tv} from "@vx-oss/heroui-v2-react";
 
 export const CheckIcon = (props) => {
   return (

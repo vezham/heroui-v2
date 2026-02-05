@@ -1,4 +1,4 @@
-import {CheckboxGroup, Checkbox} from "@heroui/react";
+import {CheckboxGroup, Checkbox} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (

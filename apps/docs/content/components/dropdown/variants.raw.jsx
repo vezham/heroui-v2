@@ -6,7 +6,7 @@ import {
   Button,
   RadioGroup,
   Radio,
-} from "@heroui/react";
+} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [selectedColor, setSelectedColor] = React.useState("default");

@@ -1,4 +1,4 @@
-# @heroui/switch
+# @vx-oss/heroui-v2-switch
 
 The Switch component is used as an alternative between checked and not checked states.
 
@@ -7,9 +7,9 @@ Please refer to the [documentation](https://heroui.com/docs/components/switch) f
 ## Installation
 
 ```sh
-yarn add @heroui/switch
+yarn add @vx-oss/heroui-v2-switch
 # or
-npm i @heroui/switch
+npm i @vx-oss/heroui-v2-switch
 ```
 
 ## Contribution

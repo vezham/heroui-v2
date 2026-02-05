@@ -3,11 +3,11 @@ import type {ListState} from "@react-stately/list";
 import type {ListboxItemProps} from "./listbox-item";
 import type {ListboxSectionBaseProps} from "./base/listbox-section-base";
 
-import {listboxSection, cn} from "@heroui/theme";
+import {listboxSection, cn} from "@vx-oss/heroui-v2-theme";
 import {useMemo} from "react";
-import {forwardRef} from "@heroui/system";
-import {mergeProps} from "@heroui/shared-utils";
-import {Divider} from "@heroui/divider";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {Divider} from "@vx-oss/heroui-v2-divider";
 import {useListBoxSection} from "@react-aria/listbox";
 
 import ListboxItem from "./listbox-item";

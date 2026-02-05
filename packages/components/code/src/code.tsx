@@ -1,6 +1,6 @@
 import type {UseCodeProps} from "./use-code";
 
-import {forwardRef} from "@heroui/system-rsc";
+import {forwardRef} from "@vx-oss/heroui-v2-system-rsc";
 
 import {useCode} from "./use-code";
 

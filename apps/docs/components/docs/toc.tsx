@@ -4,9 +4,9 @@ import type {FC} from "react";
 import type {Heading} from "@/libs/docs/utils";
 
 import {useRef, useEffect, useState} from "react";
-import {cn} from "@heroui/theme";
-import {Divider, Spacer} from "@heroui/react";
-import {ChevronCircleTopLinearIcon} from "@heroui/shared-icons";
+import {cn} from "@vx-oss/heroui-v2-theme";
+import {Divider, Spacer} from "@vx-oss/heroui-v2-react";
+import {ChevronCircleTopLinearIcon} from "@vx-oss/heroui-v2-shared-icons";
 import scrollIntoView from "scroll-into-view-if-needed";
 
 import {HeroUIProCallout} from "./heroui-pro-callout";

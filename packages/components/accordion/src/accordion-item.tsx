@@ -2,17 +2,17 @@ import type {Variants} from "framer-motion";
 import type {ReactNode} from "react";
 import type {UseAccordionItemProps} from "./use-accordion-item";
 
-import {forwardRef} from "@heroui/system";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
 import {useMemo} from "react";
-import {ChevronIcon} from "@heroui/shared-icons";
+import {ChevronIcon} from "@vx-oss/heroui-v2-shared-icons";
 import {AnimatePresence, LazyMotion, m, useWillChange} from "framer-motion";
-import {TRANSITION_VARIANTS} from "@heroui/framer-utils";
+import {TRANSITION_VARIANTS} from "@vx-oss/heroui-v2-framer-utils";
 
 import {useAccordionItem} from "./use-accordion-item";
 
 export interface AccordionItemProps extends UseAccordionItemProps {}
 
-const domAnimation = () => import("@heroui/dom-animation").then((res) => res.default);
+const domAnimation = () => import("@vx-oss/heroui-v2-dom-animation").then((res) => res.default);
 
 const AccordionItem = forwardRef<"button", AccordionItemProps>((props, ref) => {
   const {

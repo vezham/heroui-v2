@@ -4,10 +4,10 @@ import type {TabsProps} from "../src";
 import * as React from "react";
 import {act, render, fireEvent, within, waitFor} from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import {focus} from "@heroui/test-utils";
-import {spy, shouldIgnoreReactWarning} from "@heroui/test-utils";
-import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter} from "@heroui/modal";
-import {Button} from "@heroui/button";
+import {focus} from "@vx-oss/heroui-v2-test-utils";
+import {spy, shouldIgnoreReactWarning} from "@vx-oss/heroui-v2-test-utils";
+import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter} from "@vx-oss/heroui-v2-modal";
+import {Button} from "@vx-oss/heroui-v2-button";
 
 import {Tabs, Tab} from "../src";
 

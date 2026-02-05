@@ -4,13 +4,13 @@ import type {UseDatePickerProps} from "./use-date-picker";
 
 import {useMemo} from "react";
 import {cloneElement, isValidElement} from "react";
-import {forwardRef} from "@heroui/system";
-import {Button} from "@heroui/button";
-import {DateInput, TimeInput} from "@heroui/date-input";
-import {FreeSoloPopover} from "@heroui/popover";
-import {Calendar} from "@heroui/calendar";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {Button} from "@vx-oss/heroui-v2-button";
+import {DateInput, TimeInput} from "@vx-oss/heroui-v2-date-input";
+import {FreeSoloPopover} from "@vx-oss/heroui-v2-popover";
+import {Calendar} from "@vx-oss/heroui-v2-calendar";
 import {AnimatePresence} from "framer-motion";
-import {CalendarBoldIcon} from "@heroui/shared-icons";
+import {CalendarBoldIcon} from "@vx-oss/heroui-v2-shared-icons";
 
 import {useDatePicker} from "./use-date-picker";
 

@@ -1,15 +1,15 @@
-import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@heroui/theme";
-import type {ReactRef} from "@heroui/react-utils";
+import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@vx-oss/heroui-v2-theme";
+import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {HTMLMotionProps} from "framer-motion";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 
 import {useCallback, useEffect, useMemo, useRef, useState} from "react";
-import {mapPropsVariants, useProviderContext} from "@heroui/system";
-import {navbar, cn} from "@heroui/theme";
-import {useDOMRef} from "@heroui/react-utils";
-import {dataAttr, objectToDeps, mergeProps} from "@heroui/shared-utils";
-import {useScrollPosition} from "@heroui/use-scroll-position";
-import {useResizeObserver} from "@heroui/use-resize";
+import {mapPropsVariants, useProviderContext} from "@vx-oss/heroui-v2-system";
+import {navbar, cn} from "@vx-oss/heroui-v2-theme";
+import {useDOMRef} from "@vx-oss/heroui-v2-react-utils";
+import {dataAttr, objectToDeps, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {useScrollPosition} from "@vx-oss/heroui-v2-use-scroll-position";
+import {useResizeObserver} from "@vx-oss/heroui-v2-use-resize";
 import {useControlledState} from "@react-stately/utils";
 import {usePreventScroll} from "@react-aria/overlays";
 

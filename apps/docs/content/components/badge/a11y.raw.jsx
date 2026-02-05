@@ -1,4 +1,4 @@
-import {Badge, Button} from "@heroui/react";
+import {Badge, Button} from "@vx-oss/heroui-v2-react";
 
 export const NotificationIcon = ({size, height, width, ...props}) => {
   return (

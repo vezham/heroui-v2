@@ -1,4 +1,4 @@
-import {Slider, Tooltip} from "@heroui/react";
+import {Slider, Tooltip} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [value, setValue] = React.useState(0.2);

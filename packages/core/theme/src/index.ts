@@ -7,3 +7,6 @@ export * from "./default-layout";
 
 export {tv} from "./utils/tv";
 export type {VariantProps, TV} from "tailwind-variants";
+
+// wjdlz/NOTE: for @vx-oss/heroui-v2-ds
+export {heroui as vezham} from "./plugin";

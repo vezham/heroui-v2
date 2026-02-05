@@ -1,4 +1,4 @@
-import {Table, TableBody, TableCell, TableColumn, TableHeader, TableRow} from "@heroui/react";
+import {Table, TableBody, TableCell, TableColumn, TableHeader, TableRow} from "@vx-oss/heroui-v2-react";
 
 function generateRows(count) {
   return Array.from({length: count}, (_, index) => ({

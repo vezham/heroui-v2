@@ -1,4 +1,4 @@
-import {InputOtp} from "@heroui/react";
+import {InputOtp} from "@vx-oss/heroui-v2-react";
 import React from "react";
 
 export default function App() {

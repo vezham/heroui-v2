@@ -1,8 +1,8 @@
-import type {InputProps} from "@heroui/react";
+import type {InputProps} from "@vx-oss/heroui-v2-react";
 import type {Border, HeroUIScaling} from "../../types";
 
-import {Input} from "@heroui/react";
-import {cn} from "@heroui/theme";
+import {Input} from "@vx-oss/heroui-v2-react";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {ShowcaseComponent} from "../showcase-component";
 import {useThemeBuilder} from "../../provider";

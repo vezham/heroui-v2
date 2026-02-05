@@ -2,14 +2,14 @@ import type {Meta} from "@storybook/react";
 import type {MenuProps} from "../src";
 
 import React from "react";
-import {menuItem} from "@heroui/theme";
+import {menuItem} from "@vx-oss/heroui-v2-theme";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@heroui/shared-icons";
-import {cn} from "@heroui/theme";
+} from "@vx-oss/heroui-v2-shared-icons";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {Menu, MenuItem, MenuSection} from "../src";
 

@@ -1,6 +1,6 @@
 "use client";
 
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {useIsMounted} from "@/hooks/use-is-mounted";
 

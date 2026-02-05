@@ -1,26 +1,26 @@
-import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@heroui/theme";
+import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
 import type {HiddenSelectProps} from "./hidden-select";
-import type {DOMAttributes, HTMLHeroUIProps, PropGetter, SharedSelection} from "@heroui/system";
-import type {ReactRef} from "@heroui/react-utils";
+import type {DOMAttributes, HTMLHeroUIProps, PropGetter, SharedSelection} from "@vx-oss/heroui-v2-system";
+import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {Key, ReactNode} from "react";
-import type {ListboxProps} from "@heroui/listbox";
-import type {PopoverProps} from "@heroui/popover";
-import type {ScrollShadowProps} from "@heroui/scroll-shadow";
-import type {MultiSelectProps, MultiSelectState} from "@heroui/use-aria-multiselect";
-import type {SpinnerProps} from "@heroui/spinner";
+import type {ListboxProps} from "@vx-oss/heroui-v2-listbox";
+import type {PopoverProps} from "@vx-oss/heroui-v2-popover";
+import type {ScrollShadowProps} from "@vx-oss/heroui-v2-scroll-shadow";
+import type {MultiSelectProps, MultiSelectState} from "@vx-oss/heroui-v2-use-aria-multiselect";
+import type {SpinnerProps} from "@vx-oss/heroui-v2-spinner";
 import type {CollectionChildren, ValidationError} from "@react-types/shared";
 
-import {mapPropsVariants, useLabelPlacement, useProviderContext} from "@heroui/system";
-import {select, cn} from "@heroui/theme";
-import {useDOMRef, filterDOMProps} from "@heroui/react-utils";
+import {mapPropsVariants, useLabelPlacement, useProviderContext} from "@vx-oss/heroui-v2-system";
+import {select, cn} from "@vx-oss/heroui-v2-theme";
+import {useDOMRef, filterDOMProps} from "@vx-oss/heroui-v2-react-utils";
 import {useMemo, useCallback, useRef, useEffect} from "react";
-import {useAriaButton} from "@heroui/use-aria-button";
+import {useAriaButton} from "@vx-oss/heroui-v2-use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {dataAttr, objectToDeps, mergeProps} from "@heroui/shared-utils";
+import {dataAttr, objectToDeps, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
 import {useHover, usePress} from "@react-aria/interactions";
-import {useMultiSelect, useMultiSelectState} from "@heroui/use-aria-multiselect";
-import {useSafeLayoutEffect} from "@heroui/use-safe-layout-effect";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {useMultiSelect, useMultiSelectState} from "@vx-oss/heroui-v2-use-aria-multiselect";
+import {useSafeLayoutEffect} from "@vx-oss/heroui-v2-use-safe-layout-effect";
+import {FormContext, useSlottedContext} from "@vx-oss/heroui-v2-form";
 import {usePreventScroll} from "@react-aria/overlays";
 
 export type SelectedItemProps<T = object> = {

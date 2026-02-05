@@ -1,11 +1,11 @@
 "use client";
 
-import type {CardProps} from "@heroui/react";
+import type {CardProps} from "@vx-oss/heroui-v2-react";
 import type {FC} from "react";
 
-import {Card, CardBody, Button, Image, Slider} from "@heroui/react";
+import {Card, CardBody, Button, Image, Slider} from "@vx-oss/heroui-v2-react";
 import {useState} from "react";
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 import NextImage from "next/image";
 
 import {

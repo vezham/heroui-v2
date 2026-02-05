@@ -1,5 +1,5 @@
 import React from "react";
-import {Accordion, AccordionItem} from "@heroui/react";
+import {Accordion, AccordionItem} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [selectedKeys, setSelectedKeys] = React.useState(new Set(["1"]));

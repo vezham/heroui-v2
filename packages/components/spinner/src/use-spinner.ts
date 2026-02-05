@@ -1,12 +1,12 @@
-import type {SpinnerVariantProps, SpinnerSlots, SlotsToClasses} from "@heroui/theme";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system-rsc";
+import type {SpinnerVariantProps, SpinnerSlots, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system-rsc";
 import type {Ref} from "react";
 
-import {mapPropsVariants} from "@heroui/system-rsc";
-import {spinner, cn} from "@heroui/theme";
-import {objectToDeps} from "@heroui/shared-utils";
+import {mapPropsVariants} from "@vx-oss/heroui-v2-system-rsc";
+import {spinner, cn} from "@vx-oss/heroui-v2-theme";
+import {objectToDeps} from "@vx-oss/heroui-v2-shared-utils";
 import {useMemo, useCallback} from "react";
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@vx-oss/heroui-v2-system";
 
 interface Props extends HTMLHeroUIProps<"div"> {
   /**

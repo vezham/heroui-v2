@@ -1,4 +1,4 @@
-import {Button, Form, Input} from "@heroui/react";
+import {Button, Form, Input} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [submitted, setSubmitted] = React.useState(null);

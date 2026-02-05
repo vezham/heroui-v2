@@ -1,4 +1,4 @@
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@heroui/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link isExternal showAnchorIcon href="https://github.com/heroui-inc/heroui">
+        <Link isExternal showAnchorIcon href="https://github.com/vezham/heroui-v2">
           Visit source code on GitHub.
         </Link>
       </CardFooter>

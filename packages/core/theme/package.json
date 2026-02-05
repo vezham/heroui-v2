@@ -1,5 +1,5 @@
 {
-  "name": "@heroui/theme",
+  "name": "@vx-oss/heroui-v2-theme",
   "version": "2.4.26",
   "description": "The default theme for HeroUI components",
   "keywords": [
@@ -11,8 +11,8 @@
     "classNames",
     "css"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -30,11 +30,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui-v2.git",
     "directory": "packages/core/theme"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui-v2/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -51,7 +51,7 @@
     "deepmerge": "4.3.1",
     "tailwind-variants": "3.2.2",
     "tailwind-merge": "3.4.0",
-    "@heroui/shared-utils": "workspace:*"
+    "@vx-oss/heroui-v2-shared-utils": "workspace:*"
   },
   "peerDependencies": {
     "tailwindcss": ">=4.0.0"

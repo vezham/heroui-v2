@@ -2,7 +2,7 @@ import type {Meta} from "@storybook/react";
 import type {ButtonGroupProps} from "../src";
 
 import React from "react";
-import {button, buttonGroup} from "@heroui/theme";
+import {button, buttonGroup} from "@vx-oss/heroui-v2-theme";
 
 import {Button, ButtonGroup} from "../src";
 

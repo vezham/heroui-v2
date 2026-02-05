@@ -3,11 +3,11 @@ import type {ValidationErrors} from "@react-types/shared";
 import type {CheckboxIconProps, CheckboxProps} from "../src";
 
 import React from "react";
-import {checkbox} from "@heroui/theme";
-import {CloseIcon} from "@heroui/shared-icons";
-import {button} from "@heroui/theme";
+import {checkbox} from "@vx-oss/heroui-v2-theme";
+import {CloseIcon} from "@vx-oss/heroui-v2-shared-icons";
+import {button} from "@vx-oss/heroui-v2-theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@heroui/form";
+import {Form} from "@vx-oss/heroui-v2-form";
 
 import {Checkbox} from "../src";
 

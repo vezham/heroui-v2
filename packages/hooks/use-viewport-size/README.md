@@ -1,4 +1,4 @@
-# @heroui/use-viewport-size
+# @vx-oss/heroui-v2-use-viewport-size
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-viewport-size
+yarn add @vx-oss/heroui-v2-use-viewport-size
 # or
-npm i @heroui/use-viewport-size
+npm i @vx-oss/heroui-v2-use-viewport-size
 ```
 
 ## Contribution

@@ -8,7 +8,7 @@ import {
   getKeyValue,
   Radio,
   RadioGroup,
-} from "@heroui/react";
+} from "@vx-oss/heroui-v2-react";
 
 const rows = [
   {

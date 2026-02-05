@@ -1,4 +1,4 @@
-import {Input} from "@heroui/react";
+import {Input} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [password, setPassword] = React.useState("");

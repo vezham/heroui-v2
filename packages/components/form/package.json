@@ -1,12 +1,12 @@
 {
-  "name": "@heroui/form",
+  "name": "@vx-oss/heroui-v2-form",
   "version": "2.1.30",
   "description": "A form is a group of inputs that allows users submit data to a server and supports field validation errors.",
   "keywords": [
     "form"
   ],
-  "author": "HeroUI <support@heroui.com>",
-  "homepage": "https://heroui.com",
+  "author": "Vx OSS Devs <oss-developers@vezham.com>",
+  "homepage": "https://vezham.com",
   "license": "MIT",
   "main": "src/index.ts",
   "sideEffects": false,
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heroui-inc/heroui.git",
+    "url": "git+https://github.com/vezham/heroui-v2.git",
     "directory": "packages/components/form"
   },
   "bugs": {
-    "url": "https://github.com/heroui-inc/heroui/issues"
+    "url": "https://github.com/vezham/heroui-v2/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -34,21 +34,21 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@heroui/system": ">=2.4.18",
-    "@heroui/theme": ">=2.4.24",
+    "@vx-oss/heroui-v2-system": ">=2.4.18",
+    "@vx-oss/heroui-v2-theme": ">=2.4.24",
     "react": ">=18",
     "react-dom": ">=18"
   },
   "dependencies": {
-    "@heroui/system": "workspace:*",
-    "@heroui/theme": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
+    "@vx-oss/heroui-v2-system": "workspace:*",
+    "@vx-oss/heroui-v2-theme": "workspace:*",
+    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
     "@react-types/shared": "3.32.1",
     "@react-stately/form": "3.2.2",
     "@react-types/form": "3.7.16"
   },
   "devDependencies": {
-    "@heroui/button": "workspace:*",
+    "@vx-oss/heroui-v2-button": "workspace:*",
     "clean-package": "2.2.0",
     "react": "18.3.0",
     "react-dom": "18.3.0"

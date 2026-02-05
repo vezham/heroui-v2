@@ -1,4 +1,4 @@
-import {Card, Skeleton, Button} from "@heroui/react";
+import {Card, Skeleton, Button} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   const [isLoaded, setIsLoaded] = React.useState(false);

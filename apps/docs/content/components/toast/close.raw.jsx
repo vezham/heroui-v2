@@ -1,4 +1,4 @@
-import {addToast, Button, closeToast, closeAll, ToastProvider} from "@heroui/react";
+import {addToast, Button, closeToast, closeAll, ToastProvider} from "@vx-oss/heroui-v2-react";
 import React from "react";
 
 export default function App() {

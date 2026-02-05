@@ -1,4 +1,4 @@
-# @heroui/use-aria-overlay
+# @vx-oss/heroui-v2-use-aria-overlay
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-aria-overlay
+yarn add @vx-oss/heroui-v2-use-aria-overlay
 # or
-npm i @heroui/use-aria-overlay
+npm i @vx-oss/heroui-v2-use-aria-overlay
 ```
 
 ## Contribution

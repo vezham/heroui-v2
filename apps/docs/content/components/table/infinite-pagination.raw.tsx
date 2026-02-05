@@ -8,8 +8,8 @@ import {
   TableCell,
   Spinner,
   getKeyValue,
-} from "@heroui/react";
-import {useInfiniteScroll} from "@heroui/use-infinite-scroll";
+} from "@vx-oss/heroui-v2-react";
+import {useInfiniteScroll} from "@vx-oss/heroui-v2-use-infinite-scroll";
 import {useAsyncList} from "@react-stately/data";
 
 interface SWCharacter {

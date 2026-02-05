@@ -1,13 +1,13 @@
-import type {PaginationItemValue} from "@heroui/use-pagination";
+import type {PaginationItemValue} from "@vx-oss/heroui-v2-use-pagination";
 import type {UsePaginationProps} from "./use-pagination";
 
 import {useCallback} from "react";
 import {useLocale} from "@react-aria/i18n";
-import {forwardRef} from "@heroui/system";
-import {PaginationItemType} from "@heroui/use-pagination";
-import {ChevronIcon, EllipsisIcon, ForwardIcon} from "@heroui/shared-icons";
-import {dataAttr} from "@heroui/shared-utils";
-import {cn} from "@heroui/theme";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {PaginationItemType} from "@vx-oss/heroui-v2-use-pagination";
+import {ChevronIcon, EllipsisIcon, ForwardIcon} from "@vx-oss/heroui-v2-shared-icons";
+import {dataAttr} from "@vx-oss/heroui-v2-shared-utils";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 import {usePagination} from "./use-pagination";
 import PaginationItem from "./pagination-item";

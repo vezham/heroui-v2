@@ -1,15 +1,15 @@
 import type {Ref} from "react";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 import type {LinkDOMProps, PressEvent} from "@react-types/shared";
-import type {PaginationItemValue} from "@heroui/use-pagination";
+import type {PaginationItemValue} from "@vx-oss/heroui-v2-use-pagination";
 
 import {useMemo} from "react";
 import {handleLinkClick, useRouter} from "@react-aria/utils";
-import {dataAttr, chain, mergeProps} from "@heroui/shared-utils";
-import {filterDOMProps, useDOMRef} from "@heroui/react-utils";
+import {dataAttr, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {filterDOMProps, useDOMRef} from "@vx-oss/heroui-v2-react-utils";
 import {useHover, usePress} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
-import {cn} from "@heroui/theme";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 interface Props extends Omit<HTMLHeroUIProps<"li">, "onClick"> {
   /**

@@ -1,6 +1,6 @@
 import type {UseDividerProps} from "./use-divider";
 
-import {forwardRef} from "@heroui/system-rsc";
+import {forwardRef} from "@vx-oss/heroui-v2-system-rsc";
 
 import {useDivider} from "./use-divider";
 

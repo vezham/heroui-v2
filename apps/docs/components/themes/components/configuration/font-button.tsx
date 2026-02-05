@@ -1,7 +1,7 @@
 import type {FontName, FontType} from "../../types";
 
-import {Button} from "@heroui/react";
-import {cn} from "@heroui/theme";
+import {Button} from "@vx-oss/heroui-v2-react";
+import {cn} from "@vx-oss/heroui-v2-theme";
 
 interface FontButtonProps {
   title: FontName;

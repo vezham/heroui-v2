@@ -1,19 +1,19 @@
-import type {CheckboxGroupSlots, SlotsToClasses} from "@heroui/theme";
+import type {CheckboxGroupSlots, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
 import type {AriaCheckboxGroupProps} from "@react-types/checkbox";
 import type {Orientation} from "@react-types/shared";
-import type {ReactRef} from "@heroui/react-utils";
-import type {HTMLHeroUIProps, PropGetter} from "@heroui/system";
+import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
+import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 import type {CheckboxGroupState} from "@react-stately/checkbox";
 import type {CheckboxProps} from "./index";
 
-import {useProviderContext} from "@heroui/system";
+import {useProviderContext} from "@vx-oss/heroui-v2-system";
 import {useCallback, useMemo} from "react";
-import {checkboxGroup, cn} from "@heroui/theme";
+import {checkboxGroup, cn} from "@vx-oss/heroui-v2-theme";
 import {useCheckboxGroup as useReactAriaCheckboxGroup} from "@react-aria/checkbox";
 import {useCheckboxGroupState} from "@react-stately/checkbox";
-import {filterDOMProps, useDOMRef} from "@heroui/react-utils";
-import {safeAriaLabel, chain, mergeProps} from "@heroui/shared-utils";
-import {FormContext, useSlottedContext} from "@heroui/form";
+import {filterDOMProps, useDOMRef} from "@vx-oss/heroui-v2-react-utils";
+import {safeAriaLabel, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {FormContext, useSlottedContext} from "@vx-oss/heroui-v2-form";
 
 interface Props extends HTMLHeroUIProps<"div"> {
   /**

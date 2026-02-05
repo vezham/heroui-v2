@@ -1,8 +1,8 @@
 "use client";
 
 import NextLink from "next/link";
-import {Button, Link, Snippet} from "@heroui/react";
-import {ArrowRightIcon} from "@heroui/shared-icons";
+import {Button, Link, Snippet} from "@vx-oss/heroui-v2-react";
+import {ArrowRightIcon} from "@vx-oss/heroui-v2-shared-icons";
 import dynamic from "next/dynamic";
 import {usePostHog} from "posthog-js/react";
 
@@ -72,11 +72,11 @@ export const Hero = () => {
                 name: "Copy",
                 action: "click",
                 category: "landing-page",
-                data: "npx heroui-cli@latest init",
+                data: "npx vezham-cli@latest init",
               });
             }}
           >
-            npx heroui-cli@latest init
+            npx vezham-cli@latest init
           </Snippet>
           <Button
             fullWidth

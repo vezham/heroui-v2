@@ -1,7 +1,7 @@
-import type {ButtonProps as BaseButtonProps} from "@heroui/react";
+import type {ButtonProps as BaseButtonProps} from "@vx-oss/heroui-v2-react";
 
 import {forwardRef} from "react";
-import {useButton, Ripple, Spinner} from "@heroui/react";
+import {useButton, Ripple, Spinner} from "@vx-oss/heroui-v2-react";
 
 export interface ButtonProps extends BaseButtonProps {}
 

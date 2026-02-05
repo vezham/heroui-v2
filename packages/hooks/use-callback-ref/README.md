@@ -1,4 +1,4 @@
-# @heroui/use-callback-ref
+# @vx-oss/heroui-v2-use-callback-ref
 
 A Quick description of the component
 
@@ -7,9 +7,9 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @heroui/use-callback-ref
+yarn add @vx-oss/heroui-v2-use-callback-ref
 # or
-npm i @heroui/use-callback-ref
+npm i @vx-oss/heroui-v2-use-callback-ref
 ```
 
 ## Contribution

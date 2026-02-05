@@ -1,13 +1,13 @@
 import type {ForwardedRef, ReactElement} from "react";
 import type {UseAutocompleteProps} from "./use-autocomplete";
 
-import {forwardRef} from "@heroui/system";
-import {FreeSoloPopover} from "@heroui/popover";
-import {ScrollShadow} from "@heroui/scroll-shadow";
-import {ChevronDownIcon, CloseIcon} from "@heroui/shared-icons";
-import {Listbox} from "@heroui/listbox";
-import {Button} from "@heroui/button";
-import {Input} from "@heroui/input";
+import {forwardRef} from "@vx-oss/heroui-v2-system";
+import {FreeSoloPopover} from "@vx-oss/heroui-v2-popover";
+import {ScrollShadow} from "@vx-oss/heroui-v2-scroll-shadow";
+import {ChevronDownIcon, CloseIcon} from "@vx-oss/heroui-v2-shared-icons";
+import {Listbox} from "@vx-oss/heroui-v2-listbox";
+import {Button} from "@vx-oss/heroui-v2-button";
+import {Input} from "@vx-oss/heroui-v2-input";
 import {AnimatePresence} from "framer-motion";
 
 import {useAutocomplete} from "./use-autocomplete";

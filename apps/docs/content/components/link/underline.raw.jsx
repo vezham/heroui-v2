@@ -1,4 +1,4 @@
-import {Link} from "@heroui/react";
+import {Link} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (

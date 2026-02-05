@@ -1,4 +1,4 @@
-import {Slider} from "@heroui/react";
+import {Slider} from "@vx-oss/heroui-v2-react";
 
 export const VolumeHighIcon = (props) => {
   return (

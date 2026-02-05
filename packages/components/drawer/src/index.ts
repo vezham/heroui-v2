@@ -3,9 +3,9 @@ import type {
   ModalHeaderProps,
   ModalBodyProps,
   ModalFooterProps,
-} from "@heroui/modal";
+} from "@vx-oss/heroui-v2-modal";
 
-import {ModalHeader, ModalBody, ModalFooter, ModalContent} from "@heroui/modal";
+import {ModalHeader, ModalBody, ModalFooter, ModalContent} from "@vx-oss/heroui-v2-modal";
 
 import Drawer from "./drawer";
 
