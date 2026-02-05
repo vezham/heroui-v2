@@ -1,4 +1,8 @@
-import type {AccordionItemVariantProps, AccordionItemSlots, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
+import type {
+  AccordionItemVariantProps,
+  AccordionItemSlots,
+  SlotsToClasses,
+} from "@vx-oss/heroui-v2-theme";
 import type {As} from "@vx-oss/heroui-v2-system";
 import type {ItemProps} from "@vx-oss/heroui-v2-aria-utils";
 import type {FocusableProps, PressEvents} from "@react-types/shared";

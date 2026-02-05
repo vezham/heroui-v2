@@ -11,7 +11,14 @@ import {checkbox, cn} from "@vx-oss/heroui-v2-theme";
 import {useCallbackRef} from "@vx-oss/heroui-v2-use-callback-ref";
 import {useHover} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
-import {__DEV__, warn, dataAttr, safeAriaLabel, mergeProps, chain} from "@vx-oss/heroui-v2-shared-utils";
+import {
+  __DEV__,
+  warn,
+  dataAttr,
+  safeAriaLabel,
+  mergeProps,
+  chain,
+} from "@vx-oss/heroui-v2-shared-utils";
 import {
   useCheckbox as useReactAriaCheckbox,
   useCheckboxGroupItem as useReactAriaCheckboxGroupItem,

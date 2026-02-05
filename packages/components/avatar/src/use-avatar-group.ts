@@ -1,5 +1,9 @@
 import type {ReactNode} from "react";
-import type {SlotsToClasses, AvatarGroupSlots, AvatarGroupVariantProps} from "@vx-oss/heroui-v2-theme";
+import type {
+  SlotsToClasses,
+  AvatarGroupSlots,
+  AvatarGroupVariantProps,
+} from "@vx-oss/heroui-v2-theme";
 import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {AvatarProps} from "./index";

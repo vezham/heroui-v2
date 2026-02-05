@@ -1,4 +1,8 @@
-import type {SlotsToClasses, ToastRegionSlots, ToastRegionVariantProps} from "@vx-oss/heroui-v2-theme";
+import type {
+  SlotsToClasses,
+  ToastRegionSlots,
+  ToastRegionVariantProps,
+} from "@vx-oss/heroui-v2-theme";
 import type {AriaToastRegionProps} from "@react-aria/toast";
 import type {QueuedToast, ToastState} from "@react-stately/toast";
 import type {ToastProps, ToastPlacement} from "./use-toast";

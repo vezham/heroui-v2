@@ -1,6 +1,11 @@
 import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
 import type {HiddenSelectProps} from "./hidden-select";
-import type {DOMAttributes, HTMLHeroUIProps, PropGetter, SharedSelection} from "@vx-oss/heroui-v2-system";
+import type {
+  DOMAttributes,
+  HTMLHeroUIProps,
+  PropGetter,
+  SharedSelection,
+} from "@vx-oss/heroui-v2-system";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {Key, ReactNode} from "react";
 import type {ListboxProps} from "@vx-oss/heroui-v2-listbox";

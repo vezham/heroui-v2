@@ -1,4 +1,8 @@
-import type {AutocompleteVariantProps, SlotsToClasses, AutocompleteSlots} from "@vx-oss/heroui-v2-theme";
+import type {
+  AutocompleteVariantProps,
+  SlotsToClasses,
+  AutocompleteSlots,
+} from "@vx-oss/heroui-v2-theme";
 import type {DOMAttributes, HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 import type {FilterFn} from "@react-stately/combobox";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";

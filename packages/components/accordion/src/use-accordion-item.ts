@@ -8,7 +8,13 @@ import type {AccordionItemBaseProps} from "./base/accordion-item-base";
 import {useProviderContext} from "@vx-oss/heroui-v2-system";
 import {useFocusRing} from "@react-aria/focus";
 import {cn, accordionItem} from "@vx-oss/heroui-v2-theme";
-import {callAllHandlers, dataAttr, objectToDeps, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {
+  callAllHandlers,
+  dataAttr,
+  objectToDeps,
+  chain,
+  mergeProps,
+} from "@vx-oss/heroui-v2-shared-utils";
 import {useDOMRef, filterDOMProps} from "@vx-oss/heroui-v2-react-utils";
 import {useReactAriaAccordionItem} from "@vx-oss/heroui-v2-use-aria-accordion";
 import {useCallback, useMemo} from "react";

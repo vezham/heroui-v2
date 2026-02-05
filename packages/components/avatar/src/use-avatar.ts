@@ -1,5 +1,10 @@
 import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
-import type {DOMElement, DOMAttributes, HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
+import type {
+  DOMElement,
+  DOMAttributes,
+  HTMLHeroUIProps,
+  PropGetter,
+} from "@vx-oss/heroui-v2-system";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 
 import {avatar, cn} from "@vx-oss/heroui-v2-theme";

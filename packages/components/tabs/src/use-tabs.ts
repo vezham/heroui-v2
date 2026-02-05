@@ -1,4 +1,9 @@
-import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@vx-oss/heroui-v2-theme";
+import type {
+  TabsVariantProps,
+  SlotsToClasses,
+  TabsSlots,
+  TabsReturnType,
+} from "@vx-oss/heroui-v2-theme";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {RefObject} from "react";
 import type {TabListState, TabListStateOptions} from "@react-stately/tabs";

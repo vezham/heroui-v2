@@ -1,4 +1,8 @@
-import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
+import type {
+  PaginationSlots,
+  PaginationVariantProps,
+  SlotsToClasses,
+} from "@vx-oss/heroui-v2-theme";
 import type {Key, ReactNode, Ref} from "react";
 import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 import type {Timer} from "@vx-oss/heroui-v2-shared-utils";

@@ -12,7 +12,13 @@ import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
 import {mapPropsVariants, useProviderContext} from "@vx-oss/heroui-v2-system";
 import {inputOtp, cn} from "@vx-oss/heroui-v2-theme";
 import {filterDOMProps, useDOMRef} from "@vx-oss/heroui-v2-react-utils";
-import {dataAttr, objectToDeps, isPatternNumeric, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
+import {
+  dataAttr,
+  objectToDeps,
+  isPatternNumeric,
+  chain,
+  mergeProps,
+} from "@vx-oss/heroui-v2-shared-utils";
 import {useFormReset} from "@vx-oss/heroui-v2-use-form-reset";
 import {useCallback, useMemo} from "react";
 import {useControlledState} from "@react-stately/utils";

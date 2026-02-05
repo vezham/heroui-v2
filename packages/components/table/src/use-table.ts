@@ -1,4 +1,9 @@
-import type {TableVariantProps, SlotsToClasses, TableReturnType, TableSlots} from "@vx-oss/heroui-v2-theme";
+import type {
+  TableVariantProps,
+  SlotsToClasses,
+  TableReturnType,
+  TableSlots,
+} from "@vx-oss/heroui-v2-theme";
 import type {Layout} from "@react-stately/virtualizer";
 import type {SelectionBehavior, DisabledBehavior, Node} from "@react-types/shared";
 import type {TableState, TableStateProps} from "@react-stately/table";

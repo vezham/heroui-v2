@@ -1,4 +1,8 @@
-import type {ListboxItemVariantProps, ListboxItemSlots, SlotsToClasses} from "@vx-oss/heroui-v2-theme";
+import type {
+  ListboxItemVariantProps,
+  ListboxItemSlots,
+  SlotsToClasses,
+} from "@vx-oss/heroui-v2-theme";
 import type {AriaOptionProps} from "@react-aria/listbox";
 import type {FocusableProps, PressEvents} from "@react-types/shared";
 import type {ItemProps} from "@vx-oss/heroui-v2-aria-utils";

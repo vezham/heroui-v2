@@ -1,4 +1,8 @@
-import type {NumberInputVariantProps, SlotsToClasses, NumberInputSlots} from "@vx-oss/heroui-v2-theme";
+import type {
+  NumberInputVariantProps,
+  SlotsToClasses,
+  NumberInputSlots,
+} from "@vx-oss/heroui-v2-theme";
 import type {AriaNumberFieldProps} from "@react-types/numberfield";
 import type {NumberFieldStateOptions} from "@react-stately/numberfield";
 import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";

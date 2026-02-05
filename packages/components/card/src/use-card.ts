@@ -1,5 +1,10 @@
 import type {FocusableProps, PressEvents} from "@react-types/shared";
-import type {SlotsToClasses, CardSlots, CardReturnType, CardVariantProps} from "@vx-oss/heroui-v2-theme";
+import type {
+  SlotsToClasses,
+  CardSlots,
+  CardReturnType,
+  CardVariantProps,
+} from "@vx-oss/heroui-v2-theme";
 import type {AriaButtonProps} from "@vx-oss/heroui-v2-use-aria-button";
 import type {RippleProps} from "@vx-oss/heroui-v2-ripple";
 import type {MouseEventHandler, ReactNode} from "react";

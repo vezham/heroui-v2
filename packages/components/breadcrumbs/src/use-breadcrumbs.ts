@@ -1,4 +1,8 @@
-import type {BreadcrumbsVariantProps, SlotsToClasses, BreadcrumbsSlots} from "@vx-oss/heroui-v2-theme";
+import type {
+  BreadcrumbsVariantProps,
+  SlotsToClasses,
+  BreadcrumbsSlots,
+} from "@vx-oss/heroui-v2-theme";
 import type {AriaBreadcrumbsProps} from "@react-types/breadcrumbs";
 import type {ReactNode, Key, ReactElement} from "react";
 import type {HTMLHeroUIProps, PropGetter} from "@vx-oss/heroui-v2-system";
