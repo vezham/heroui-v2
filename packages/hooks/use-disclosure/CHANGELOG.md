@@ -1,5 +1,14 @@
 # @heroui/use-disclosure
 
+## 2.2.19-beta.0
+
+### Patch Changes
+
+- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+
+- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
+  - @vx-oss/heroui-v2-use-callback-ref@2.1.9-beta.0
+
 ## 2.2.18
 
 ### Patch Changes

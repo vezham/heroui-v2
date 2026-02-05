@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-spacer",
-  "version": "2.2.23",
+  "version": "2.2.24-beta.0",
   "description": "A flexible spacer component designed to create consistent spacing and maintain alignment in your layout.",
   "keywords": [
     "spacer"
@@ -36,7 +36,7 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.24"
+    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0"
   },
   "dependencies": {
     "@vx-oss/heroui-v2-system-rsc": "workspace:*",

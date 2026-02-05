@@ -1,5 +1,14 @@
 # @heroui/use-data-scroll-overflow
 
+## 2.2.14-beta.0
+
+### Patch Changes
+
+- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+
+- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
+  - @vx-oss/heroui-v2-shared-utils@2.1.13-beta.0
+
 ## 2.2.13
 
 ### Patch Changes

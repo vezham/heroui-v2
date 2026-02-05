@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-intersection-observer",
-  "version": "2.2.14",
+  "version": "2.2.15-beta.0",
   "description": "Tracks the intersection of a DOM element and its containing element or the viewport.",
   "keywords": [
     "use-intersection-observer"

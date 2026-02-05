@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-theme",
-  "version": "2.4.26",
+  "version": "2.4.27-beta.0",
   "description": "The default theme for HeroUI components",
   "keywords": [
     "theme",

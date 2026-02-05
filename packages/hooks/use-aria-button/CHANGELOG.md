@@ -1,5 +1,11 @@
 # @heroui/use-aria-button
 
+## 2.2.22-beta.0
+
+### Patch Changes
+
+- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+
 ## 2.2.21
 
 ### Patch Changes

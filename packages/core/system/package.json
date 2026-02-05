@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-system",
-  "version": "2.4.26",
+  "version": "2.4.27-beta.0",
   "description": "HeroUI system primitives",
   "keywords": [
     "system"
