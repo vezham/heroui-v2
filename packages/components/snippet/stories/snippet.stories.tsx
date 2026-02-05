@@ -92,6 +92,10 @@ export const Default = {
 export const MultiLine = {
   args: {
     ...defaultProps,
-    children: ["npm install @vx-oss/heroui-v2-react", "yarn add @vx-oss/heroui-v2-react", "pnpm add @vx-oss/heroui-v2-react"],
+    children: [
+      "npm install @vx-oss/heroui-v2-react",
+      "yarn add @vx-oss/heroui-v2-react",
+      "pnpm add @vx-oss/heroui-v2-react",
+    ],
   },
 };

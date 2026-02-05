@@ -146,7 +146,11 @@ export function updateTailwindConfig(tailwindConfig: string, componentNames: str
       const name = componentName.replace(/"/g, "");
 
       // Add the new line
-      lines.splice(lineIndex, 0, `  "./node_modules/@vx-oss/heroui-v2-theme/dist/components/${name}.js",`);
+      lines.splice(
+        lineIndex,
+        0,
+        `  "./node_modules/@vx-oss/heroui-v2-theme/dist/components/${name}.js",`,
+      );
     });
   }
 

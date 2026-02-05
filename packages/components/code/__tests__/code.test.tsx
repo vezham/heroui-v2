@@ -25,8 +25,12 @@ describe("Code", () => {
   });
 
   it("should include the code", () => {
-    const wrapper = render(<Code data-testid="code-test">npm install @vx-oss/heroui-v2-react</Code>);
+    const wrapper = render(
+      <Code data-testid="code-test">npm install @vx-oss/heroui-v2-react</Code>,
+    );
 
-    expect(wrapper.getByTestId("code-test")).toHaveTextContent("npm install @vx-oss/heroui-v2-react");
+    expect(wrapper.getByTestId("code-test")).toHaveTextContent(
+      "npm install @vx-oss/heroui-v2-react",
+    );
   });
 });

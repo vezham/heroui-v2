@@ -21,7 +21,13 @@ import {useTreeState} from "@react-stately/tree";
 import {useSelectableCollection} from "@react-aria/selection";
 import {usePress} from "@react-aria/interactions";
 import {dataAttr, debounce, isEmpty} from "@vx-oss/heroui-v2-shared-utils";
-import {Spacer, Link as HeroUILink, Chip, dataFocusVisibleClasses, cn} from "@vx-oss/heroui-v2-react";
+import {
+  Spacer,
+  Link as HeroUILink,
+  Chip,
+  dataFocusVisibleClasses,
+  cn,
+} from "@vx-oss/heroui-v2-react";
 import Link from "next/link";
 import {usePathname, useRouter} from "next/navigation";
 

@@ -1,6 +1,13 @@
 "use client";
 
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@vx-oss/heroui-v2-react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  Link,
+  Button,
+} from "@vx-oss/heroui-v2-react";
 
 const AcmeLogo = () => (
   <svg fill="none" height="36" viewBox="0 0 32 32" width="36">

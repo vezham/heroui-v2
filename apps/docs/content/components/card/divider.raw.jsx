@@ -1,4 +1,12 @@
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@vx-oss/heroui-v2-react";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Divider,
+  Link,
+  Image,
+} from "@vx-oss/heroui-v2-react";
 
 export default function App() {
   return (

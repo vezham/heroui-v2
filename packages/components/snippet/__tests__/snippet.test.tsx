@@ -18,9 +18,13 @@ describe("Snippet", () => {
   });
 
   it("should include the code", () => {
-    const wrapper = render(<Snippet data-testid="code-test">npm install @vx-oss/heroui-v2-react</Snippet>);
+    const wrapper = render(
+      <Snippet data-testid="code-test">npm install @vx-oss/heroui-v2-react</Snippet>,
+    );
 
-    expect(wrapper.getByTestId("code-test")).toHaveTextContent("npm install @vx-oss/heroui-v2-react");
+    expect(wrapper.getByTestId("code-test")).toHaveTextContent(
+      "npm install @vx-oss/heroui-v2-react",
+    );
   });
 
   it("should render multiple <pre> tags when children is an array of string", () => {
