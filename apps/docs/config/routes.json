@@ -473,7 +473,8 @@
           "key": "cli-api",
           "title": "HeroUI CLI",
           "keywords": "api references, heroui, api, cli",
-          "path": "/docs/api-references/cli-api.mdx"
+          "path": "/docs/api-references/cli-api.mdx",
+          "updated": true
         },
         {
           "key": "heroui-provider",
@@ -514,12 +515,6 @@
           "title": "Figma",
           "keywords": "figma, heroui, design, ui kit",
           "path": "/docs/guide/figma.mdx"
-        },
-        {
-          "key": "roadmap",
-          "title": "Roadmap",
-          "keywords": "roadmap, heroui",
-          "path": "#"
         }
       ]
     }

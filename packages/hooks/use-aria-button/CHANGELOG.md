@@ -1,10 +1,10 @@
 # @heroui/use-aria-button
 
-## 2.2.22-beta.0
+## 2.2.22
 
 ### Patch Changes
 
-- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+- [#6281](https://github.com/heroui-inc/heroui/pull/6281) [`7437888`](https://github.com/heroui-inc/heroui/commit/74378881829204b94173ee2d713f81df5e9e9784) Thanks [@wingkwong](https://github.com/wingkwong)! - react-aria versions (release v1.16.0)
 
 ## 2.2.21
 

@@ -1,27 +1,34 @@
 # @heroui/select
 
-## 2.4.32-beta.0
+## 2.4.33
 
 ### Patch Changes
 
-- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+- [#6269](https://github.com/heroui-inc/heroui/pull/6269) [`2db2ac7`](https://github.com/heroui-inc/heroui/commit/2db2ac726a149e0b88a3691d86a27edc0569831d) Thanks [@deepansh946](https://github.com/deepansh946)! - Fix Select to scroll to selected item when re opens (#5789)
 
-- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
-  - @vx-oss/heroui-v2-form@2.1.31-beta.0
-  - @vx-oss/heroui-v2-listbox@2.3.30-beta.0
-  - @vx-oss/heroui-v2-popover@2.3.31-beta.0
-  - @vx-oss/heroui-v2-scroll-shadow@2.3.20-beta.0
-  - @vx-oss/heroui-v2-spinner@2.2.28-beta.0
-  - @vx-oss/heroui-v2-system@2.4.27-beta.0
-  - @vx-oss/heroui-v2-theme@2.4.27-beta.0
-  - @vx-oss/heroui-v2-use-aria-button@2.2.22-beta.0
-  - @vx-oss/heroui-v2-use-aria-multiselect@2.4.21-beta.0
-  - @vx-oss/heroui-v2-use-form-reset@2.0.2-beta.0
-  - @vx-oss/heroui-v2-use-safe-layout-effect@2.1.9-beta.0
-  - @vx-oss/heroui-v2-aria-utils@2.2.28-beta.0
-  - @vx-oss/heroui-v2-react-utils@2.1.15-beta.0
-  - @vx-oss/heroui-v2-shared-icons@2.1.11-beta.0
-  - @vx-oss/heroui-v2-shared-utils@2.1.13-beta.0
+- [#6281](https://github.com/heroui-inc/heroui/pull/6281) [`7437888`](https://github.com/heroui-inc/heroui/commit/74378881829204b94173ee2d713f81df5e9e9784) Thanks [@wingkwong](https://github.com/wingkwong)! - react-aria versions (release v1.16.0)
+
+- Updated dependencies [[`7437888`](https://github.com/heroui-inc/heroui/commit/74378881829204b94173ee2d713f81df5e9e9784)]:
+  - @heroui/use-aria-multiselect@2.4.21
+  - @heroui/use-aria-button@2.2.22
+  - @heroui/aria-utils@2.2.29
+  - @heroui/listbox@2.3.31
+  - @heroui/popover@2.3.32
+  - @heroui/form@2.1.32
+  - @heroui/spinner@2.2.29
+  - @heroui/scroll-shadow@2.3.19
+
+## 2.4.32
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @heroui/form@2.1.31
+  - @heroui/popover@2.3.31
+  - @heroui/spinner@2.2.28
+  - @heroui/listbox@2.3.30
+  - @heroui/scroll-shadow@2.3.19
+  - @heroui/aria-utils@2.2.28
 
 ## 2.4.31
 

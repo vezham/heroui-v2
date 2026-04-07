@@ -39,9 +39,9 @@
     "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0"
   },
   "dependencies": {
-    "@vx-oss/heroui-v2-react-rsc-utils": "workspace:*",
-    "@vx-oss/heroui-v2-system-rsc": "workspace:*",
-    "@react-types/shared": "3.32.1"
+    "@heroui/react-rsc-utils": "workspace:*",
+    "@heroui/system-rsc": "workspace:*",
+    "@react-types/shared": "3.33.1"
   },
   "devDependencies": {
     "@vx-oss/heroui-v2-theme": "workspace:*",

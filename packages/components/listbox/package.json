@@ -46,11 +46,11 @@
     "@vx-oss/heroui-v2-shared-utils": "workspace:*",
     "@vx-oss/heroui-v2-use-is-mobile": "workspace:*",
     "@tanstack/react-virtual": "3.11.3",
-    "@react-aria/listbox": "3.15.1",
-    "@react-stately/list": "3.13.2",
-    "@react-aria/focus": "3.21.3",
-    "@react-aria/interactions": "3.26.0",
-    "@react-types/shared": "3.32.1"
+    "@react-aria/listbox": "3.15.3",
+    "@react-stately/list": "3.13.4",
+    "@react-aria/focus": "3.21.5",
+    "@react-aria/interactions": "3.27.1",
+    "@react-types/shared": "3.33.1"
   },
   "devDependencies": {
     "@vx-oss/heroui-v2-avatar": "workspace:*",

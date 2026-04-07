@@ -1,16 +1,18 @@
 # @heroui/kbd
 
-## 2.2.25-beta.0
+## 2.2.26
 
 ### Patch Changes
 
-- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+- Updated dependencies [[`7437888`](https://github.com/heroui-inc/heroui/commit/74378881829204b94173ee2d713f81df5e9e9784)]:
+  - @heroui/system-rsc@2.3.24
 
-- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
-  - @vx-oss/heroui-v2-system-rsc@2.3.23-beta.0
-  - @vx-oss/heroui-v2-theme@2.4.27-beta.0
-  - @vx-oss/heroui-v2-react-utils@2.1.15-beta.0
-  - @vx-oss/heroui-v2-shared-utils@2.1.13-beta.0
+## 2.2.25
+
+### Patch Changes
+
+- Updated dependencies [[`e1b3453`](https://github.com/heroui-inc/heroui/commit/e1b34537ebc8fec0e7ffa45bc43ad8e52a510d18)]:
+  - @heroui/system-rsc@2.3.23
 
 ## 2.2.24
 

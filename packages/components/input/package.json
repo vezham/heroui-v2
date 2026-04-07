@@ -40,17 +40,17 @@
     "@vx-oss/heroui-v2-system": ">=2.4.27-beta.0"
   },
   "dependencies": {
-    "@vx-oss/heroui-v2-form": "workspace:*",
-    "@vx-oss/heroui-v2-react-utils": "workspace:*",
-    "@vx-oss/heroui-v2-shared-icons": "workspace:*",
-    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
-    "@vx-oss/heroui-v2-use-safe-layout-effect": "workspace:*",
-    "@react-aria/focus": "3.21.3",
-    "@react-aria/interactions": "3.26.0",
-    "@react-aria/textfield": "3.18.3",
+    "@heroui/form": "workspace:*",
+    "@heroui/react-utils": "workspace:*",
+    "@heroui/shared-icons": "workspace:*",
+    "@heroui/shared-utils": "workspace:*",
+    "@heroui/use-safe-layout-effect": "workspace:*",
+    "@react-aria/focus": "3.21.5",
+    "@react-aria/interactions": "3.27.1",
+    "@react-aria/textfield": "3.18.5",
     "@react-stately/utils": "3.11.0",
-    "@react-types/shared": "3.32.1",
-    "@react-types/textfield": "3.12.6",
+    "@react-types/shared": "3.33.1",
+    "@react-types/textfield": "3.12.8",
     "react-textarea-autosize": "^8.5.3"
   },
   "devDependencies": {

@@ -1,14 +1,18 @@
 # @heroui/framer-utils
 
-## 2.1.27-beta.0
+## 2.1.28
 
 ### Patch Changes
 
-- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+- Updated dependencies [[`7437888`](https://github.com/heroui-inc/heroui/commit/74378881829204b94173ee2d713f81df5e9e9784)]:
+  - @heroui/system@2.4.28
 
-- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
-  - @vx-oss/heroui-v2-system@2.4.27-beta.0
-  - @vx-oss/heroui-v2-use-measure@2.1.9-beta.0
+## 2.1.27
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @heroui/system@2.4.27
 
 ## 2.1.26
 

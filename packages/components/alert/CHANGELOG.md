@@ -1,18 +1,18 @@
 # @heroui/alert
 
-## 2.2.31-beta.0
+## 2.2.32
 
 ### Patch Changes
 
-- [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
+- Updated dependencies [[`7437888`](https://github.com/heroui-inc/heroui/commit/74378881829204b94173ee2d713f81df5e9e9784)]:
+  - @heroui/button@2.2.32
 
-- Updated dependencies [[`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe)]:
-  - @vx-oss/heroui-v2-button@2.2.31-beta.0
-  - @vx-oss/heroui-v2-system@2.4.27-beta.0
-  - @vx-oss/heroui-v2-theme@2.4.27-beta.0
-  - @vx-oss/heroui-v2-react-utils@2.1.15-beta.0
-  - @vx-oss/heroui-v2-shared-icons@2.1.11-beta.0
-  - @vx-oss/heroui-v2-shared-utils@2.1.13-beta.0
+## 2.2.31
+
+### Patch Changes
+
+- Updated dependencies [[`c92543b`](https://github.com/heroui-inc/heroui/commit/c92543ba7984eff3e0946da46bacc7532af614e8)]:
+  - @heroui/button@2.2.31
 
 ## 2.2.30
 

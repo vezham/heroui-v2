@@ -8,12 +8,12 @@ import type {FilterFn} from "@react-stately/combobox";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {ReactNode} from "react";
 import type {ComboBoxProps} from "@react-types/combobox";
-import type {PopoverProps} from "@vx-oss/heroui-v2-popover";
-import type {ListboxProps} from "@vx-oss/heroui-v2-listbox";
-import type {InputProps} from "@vx-oss/heroui-v2-input";
-import type {ScrollShadowProps} from "@vx-oss/heroui-v2-scroll-shadow";
-import type {ButtonProps} from "@vx-oss/heroui-v2-button";
-import type {AsyncLoadable, PressEvent} from "@react-types/shared";
+import type {PopoverProps} from "@heroui/popover";
+import type {ListboxProps} from "@heroui/listbox";
+import type {InputProps} from "@heroui/input";
+import type {ScrollShadowProps} from "@heroui/scroll-shadow";
+import type {ButtonProps} from "@heroui/button";
+import type {AsyncLoadable, Key, PressEvent} from "@react-types/shared";
 
 import {dataAttr, objectToDeps, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";
 import {useEffect, useMemo, useRef} from "react";
@@ -122,6 +122,12 @@ interface Props<T> extends Omit<HTMLHeroUIProps<"input">, keyof ComboBoxProps<T>
    */
   onClear?: () => void;
   /**
+   * Handler called when the selection changes.
+   * When used with RHF (name prop is set), receives a synthetic ChangeEvent.
+   * Otherwise, receives the selected key value directly.
+   */
+  onChange?: ((value: Key | null) => void) | ((event: React.ChangeEvent<HTMLInputElement>) => void);
+  /**
    * Whether to enable virtualization of the listbox items.
    * By default, virtualization is automatically enabled when the number of items is greater than 50.
    * @default undefined
@@ -130,8 +136,11 @@ interface Props<T> extends Omit<HTMLHeroUIProps<"input">, keyof ComboBoxProps<T>
 }
 
 export type UseAutocompleteProps<T> = Props<T> &
-  Omit<InputProps, "children" | "value" | "isClearable" | "defaultValue" | "classNames"> &
-  ComboBoxProps<T> &
+  Omit<
+    InputProps,
+    "children" | "value" | "isClearable" | "defaultValue" | "classNames" | "onChange"
+  > &
+  Omit<ComboBoxProps<T>, "onChange"> &
   AsyncLoadable &
   AutocompleteVariantProps & {
     /**
@@ -199,6 +208,7 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
     onOpenChange,
     onClose,
     onClear,
+    onChange,
     isReadOnly = false,
     ...otherProps
   } = props;
@@ -206,8 +216,14 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
   // Setup filter function and state.
   const {contains} = useFilter(filterOptions);
 
+  // Exclude onChange from originalProps to prevent RHF's onChange
+  // (which expects an event object) from being passed to useComboBoxState
+  // (which calls onChange with a raw key value)
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const {onChange: _onChange, ...restProps} = originalProps;
+
   let state = useComboBoxState({
-    ...originalProps,
+    ...restProps,
     children,
     menuTrigger,
     validationBehavior,
@@ -218,6 +234,23 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
       onOpenChange?.(open, menuTrigger);
       if (!open) {
         onClose?.();
+      }
+    },
+    onSelectionChange: (key) => {
+      originalProps.onSelectionChange?.(key);
+      if (onChange && typeof onChange === "function") {
+        // If name prop is present (from RHF's register), call with synthetic event
+        // Otherwise, call with the raw key value for regular controlled usage
+        if (originalProps.name) {
+          (onChange as (event: React.ChangeEvent<HTMLInputElement>) => void)({
+            target: {
+              name: originalProps.name,
+              value: key ?? "",
+            },
+          } as React.ChangeEvent<HTMLInputElement>);
+        } else {
+          (onChange as (value: Key | null) => void)(key);
+        }
       }
     },
   });
@@ -247,7 +280,7 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
   } = useComboBox(
     {
       validationBehavior,
-      ...originalProps,
+      ...restProps,
       inputRef,
       buttonRef,
       listBoxRef,
@@ -347,7 +380,7 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
     const item = state.collection.getItem(key);
 
     if (item && state.inputValue !== item.textValue) {
-      state.setSelectedKey(key);
+      state.setValue(key);
       state.setInputValue(item.textValue);
     }
   }, [inputRef.current]);
@@ -358,11 +391,11 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
     let keyToFocus: React.Key | null;
 
     if (
-      state.selectedKey !== null &&
-      state.collection.getItem(state.selectedKey) &&
-      !state.disabledKeys.has(state.selectedKey)
+      state.value &&
+      state.collection.getItem(state.value) &&
+      !state.disabledKeys.has(state.value)
     ) {
-      keyToFocus = state.selectedKey;
+      keyToFocus = state.value;
     } else {
       let firstAvailableKey = state.collection.getFirstKey();
 
@@ -372,7 +405,7 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
       keyToFocus = firstAvailableKey;
     }
     state.selectionManager.setFocusedKey(keyToFocus);
-  }, [state.collection, state.disabledKeys, state.selectedKey]);
+  }, [state.collection, state.disabledKeys, state.value, state.isOpen, state.inputValue]);
 
   // scroll the listbox to the selected item
   useEffect(() => {
@@ -389,7 +422,7 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
           scrollShadowHeight / 2 +
           selectedItem.parentElement.clientHeight / 2;
 
-        state.selectionManager.setFocusedKey(state.selectedKey);
+        state.selectionManager.setFocusedKey(state.value);
       }
     }
   }, [state.isOpen, disableAnimation]);
@@ -463,14 +496,14 @@ export function useAutocomplete<T extends object>(originalProps: UseAutocomplete
       },
       onPress: (e: PressEvent) => {
         slotsProps.clearButtonProps?.onPress?.(e);
-        if (state.selectedItem) {
-          state.setSelectedKey(null);
+        if (state.selectedItems[0]) {
+          state.setValue(null);
         }
         state.setInputValue("");
         state.open();
         onClear?.();
       },
-      "data-visible": !!state.selectedItem || state.inputValue?.length > 0,
+      "data-visible": !!state.selectedItems[0] || state.inputValue?.length > 0,
       className: slots.clearButton({
         class: cn(classNames?.clearButton, slotsProps.clearButtonProps?.className),
       }),

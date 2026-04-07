@@ -37,8 +37,8 @@
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@vx-oss/heroui-v2-use-callback-ref": "workspace:*",
-    "@react-aria/utils": "3.32.0",
+    "@heroui/use-callback-ref": "workspace:*",
+    "@react-aria/utils": "3.33.1",
     "@react-stately/utils": "3.11.0"
   },
   "devDependencies": {

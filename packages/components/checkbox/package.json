@@ -40,18 +40,18 @@
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@vx-oss/heroui-v2-form": "workspace:*",
-    "@vx-oss/heroui-v2-react-utils": "workspace:*",
-    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
-    "@vx-oss/heroui-v2-use-callback-ref": "workspace:*",
-    "@vx-oss/heroui-v2-use-safe-layout-effect": "workspace:*",
-    "@react-aria/checkbox": "3.16.3",
-    "@react-aria/focus": "3.21.3",
-    "@react-aria/interactions": "3.26.0",
-    "@react-stately/checkbox": "3.7.3",
-    "@react-stately/toggle": "3.9.3",
-    "@react-types/checkbox": "3.10.2",
-    "@react-types/shared": "3.32.1"
+    "@heroui/form": "workspace:*",
+    "@heroui/react-utils": "workspace:*",
+    "@heroui/shared-utils": "workspace:*",
+    "@heroui/use-callback-ref": "workspace:*",
+    "@heroui/use-safe-layout-effect": "workspace:*",
+    "@react-aria/checkbox": "3.16.5",
+    "@react-aria/focus": "3.21.5",
+    "@react-aria/interactions": "3.27.1",
+    "@react-stately/checkbox": "3.7.5",
+    "@react-stately/toggle": "3.9.5",
+    "@react-types/checkbox": "3.10.4",
+    "@react-types/shared": "3.33.1"
   },
   "devDependencies": {
     "@vx-oss/heroui-v2-shared-icons": "workspace:*",
