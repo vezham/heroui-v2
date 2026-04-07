@@ -335,7 +335,7 @@ export const MusicPlayer: FC<MusicPlayerProps> = ({className, ...otherProps}) =>
               }}
               height={200}
               shadow="lg"
-              src="https://heroui.com/images/album-cover.png"
+              src="https://v2.heroui.com/images/album-cover.png"
               width="100%"
             />
           </div>

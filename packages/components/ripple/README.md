@@ -2,7 +2,7 @@
 
 This is a component that creates a ripple effect on the screen.
 
-Please refer to the [documentation](https://heroui.com/docs/components/button) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/button) for more information.
 
 ## Installation
 

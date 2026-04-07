@@ -108,7 +108,7 @@ export type ConfigThemes = Record<string, ConfigTheme>;
 
 /**
  * The HeroUI config.
- * @see https://heroui.com/docs/customization/customize-theme
+ * @see https://v2.heroui.com/docs/customization/customize-theme
  */
 export type HeroUIPluginConfig = {
   /**

@@ -261,7 +261,7 @@ export default function App() {
 
                         <p className="mt-4">
                           Brought to you by the{" "}
-                          <Link className="text-default-700" href="https://heroui.com">
+                          <Link className="text-default-700" href="https://v2.heroui.com">
                             HeroUI team
                           </Link>
                           .
@@ -274,7 +274,7 @@ export default function App() {
                         <Avatar
                           name="HeroUI"
                           size="sm"
-                          src="https://heroui.com/android-chrome-192x192.png"
+                          src="https://v2.heroui.com/android-chrome-192x192.png"
                         />
                         <span className="text-small text-default-500">HeroUI Team</span>
                       </div>

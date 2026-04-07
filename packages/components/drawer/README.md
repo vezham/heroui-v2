@@ -2,7 +2,7 @@
 
 Used to render a content that slides in from the side of the screen.
 
-Please refer to the [documentation](https://heroui.com/docs/components/drawer) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/drawer) for more information.
 
 ## Installation
 

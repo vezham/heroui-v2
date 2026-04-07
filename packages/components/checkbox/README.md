@@ -2,7 +2,7 @@
 
 Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.
 
-Please refer to the [documentation](https://heroui.com/docs/components/checkbox) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/checkbox) for more information.
 
 ## Installation
 

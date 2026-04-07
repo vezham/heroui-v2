@@ -2,7 +2,7 @@
 
 A form is a group of inputs that allows users submit data to a server and supports field validation errors.
 
-Please refer to the [documentation](https://heroui.com/docs/components/form) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/form) for more information.
 
 ## Installation
 

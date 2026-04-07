@@ -98,7 +98,7 @@ interface Props extends HTMLHeroUIProps<"div"> {
   classNames?: SlotsToClasses<SliderSlots>;
   /**
    * Tooltip props.
-   * @see [Tooltip](https://heroui.com/components/tooltip) for more details.
+   * @see [Tooltip](https://v2.heroui.com/components/tooltip) for more details.
    * @default {
    *  offset: 15,
    *  delay: 0,

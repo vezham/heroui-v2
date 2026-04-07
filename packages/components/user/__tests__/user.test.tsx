@@ -65,7 +65,7 @@ describe("User", () => {
     const wrapper = render(
       <User
         description={
-          <Link data-testid="test-user-link" href="https://heroui.com">
+          <Link data-testid="test-user-link" href="https://v2.heroui.com">
             HeroUI
           </Link>
         }

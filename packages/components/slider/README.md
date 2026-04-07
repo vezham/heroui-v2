@@ -2,7 +2,7 @@
 
 Slider allows a user to select one or more values within a range.
 
-Please refer to the [documentation](https://heroui.com/docs/components/slider) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/slider) for more information.
 
 ## Installation
 

@@ -18,3 +18,5 @@
 [*] @heroui.com [->] @vezham.com
 [*] @heroui [->] @vx-oss/heroui-v2- / @vezham => By usecase
 [*] heroui-cli [->] vezham-cli
+
+[*] https://heroui.com [->] https://v2.heroui.com

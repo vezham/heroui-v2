@@ -2,7 +2,7 @@
 
 NumberInput is a component that allows users to enter number. It can be used to get user inputs in forms, search fields, and more.
 
-Please refer to the [documentation](https://heroui.com/docs/components/number-input) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/number-input) for more information.
 
 ## Installation
 

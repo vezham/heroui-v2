@@ -41,7 +41,7 @@ interface Props extends HTMLHeroUIProps<"button"> {
   endContent?: ReactNode;
   /**
    * Spinner to display when loading.
-   * @see https://heroui.com/components/spinner
+   * @see https://v2.heroui.com/components/spinner
    */
   spinner?: ReactNode;
   /**

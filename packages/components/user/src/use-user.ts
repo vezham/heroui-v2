@@ -30,7 +30,7 @@ interface Props {
   isFocusable?: boolean;
   /**
    * The user avatar props
-   * @see https://heroui.com/docs/components/avatar
+   * @see https://v2.heroui.com/docs/components/avatar
    */
   avatarProps?: Partial<AvatarProps>;
   /**

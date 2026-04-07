@@ -2,7 +2,7 @@
 
 A listbox displays a list of options and allows a user to select one or more of them.
 
-Please refer to the [documentation](https://heroui.com/docs/components/listbox) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/listbox) for more information.
 
 ## Installation
 

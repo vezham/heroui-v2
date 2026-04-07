@@ -5,7 +5,7 @@ export default function App() {
     <Image
       isZoomed
       alt="HeroUI Fruit Image with Zoom"
-      src="https://heroui.com/images/fruit-1.jpeg"
+      src="https://v2.heroui.com/images/fruit-1.jpeg"
       width={240}
     />
   );

@@ -5,7 +5,7 @@ export default function App() {
     <Image
       alt="HeroUI hero Image with delay"
       height={200}
-      src="https://app.requestly.io/delay/5000/https://heroui.com/images/hero-card-complete.jpeg"
+      src="https://app.requestly.io/delay/5000/https://v2.heroui.com/images/hero-card-complete.jpeg"
       width={300}
     />
   );

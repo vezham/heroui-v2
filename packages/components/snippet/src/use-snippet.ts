@@ -90,7 +90,7 @@ export interface UseSnippetProps extends Omit<HTMLHeroUIProps, "onCopy">, Snippe
   hideSymbol?: boolean;
   /**
    * Tooltip props.
-   * @see [Tooltip](https://heroui.com/components/tooltip) for more details.
+   * @see [Tooltip](https://v2.heroui.com/components/tooltip) for more details.
    * @default {
    *  offset: 15,
    *  delay: 1000,
@@ -102,7 +102,7 @@ export interface UseSnippetProps extends Omit<HTMLHeroUIProps, "onCopy">, Snippe
   tooltipProps?: Partial<TooltipProps>;
   /**
    * Copy button props.
-   * @see [Button](https://heroui.com/components/button) for more details.
+   * @see [Button](https://v2.heroui.com/components/button) for more details.
    * @default {
    *   isDisabled: disableCopy,
    *   onPress: onCopy

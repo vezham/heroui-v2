@@ -2,7 +2,7 @@
 
 Tabs organize content into multiple sections and allow users to navigate between them.
 
-Please refer to the [documentation](https://heroui.com/docs/components/tabs) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/tabs) for more information.
 
 ## Installation
 

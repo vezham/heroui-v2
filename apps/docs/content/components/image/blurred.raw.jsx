@@ -6,7 +6,7 @@ export default function App() {
       isBlurred
       alt="HeroUI Album Cover"
       className="m-5"
-      src="https://heroui.com/images/album-cover.png"
+      src="https://v2.heroui.com/images/album-cover.png"
       width={240}
     />
   );

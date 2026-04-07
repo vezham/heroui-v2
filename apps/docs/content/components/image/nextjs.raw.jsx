@@ -7,7 +7,7 @@ export default function App() {
       alt="HeroUI hero Image"
       as={NextImage}
       height={200}
-      src="https://heroui.com/images/hero-card-complete.jpeg"
+      src="https://v2.heroui.com/images/hero-card-complete.jpeg"
       width={300}
     />
   );

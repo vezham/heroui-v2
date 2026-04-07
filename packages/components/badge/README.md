@@ -2,7 +2,7 @@
 
 Badges are used as a small numerical value or status descriptor for UI elements.
 
-Please refer to the [documentation](https://heroui.com/docs/components/badge) for more information.
+Please refer to the [documentation](https://v2.heroui.com/docs/components/badge) for more information.
 
 ## Installation
 
