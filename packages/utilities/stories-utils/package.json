@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-stories-utils",
-  "version": "2.1.8",
+  "version": "2.1.9-beta.0",
   "description": "A list of utilities for storybook' stories.",
   "keywords": [
     "stories-utils"

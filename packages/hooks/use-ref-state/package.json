@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-ref-state",
-  "version": "2.1.9",
+  "version": "2.1.10-beta.0",
   "description": "Hook for saving the state in a ref value",
   "keywords": [
     "use-ref-state"

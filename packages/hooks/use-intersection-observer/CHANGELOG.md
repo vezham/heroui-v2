@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- [`95e1706`](https://github.com/vezham/heroui-v2/commit/95e1706d4b7cb0715b5cf2f9c42205a71da86f31) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | sync bump
+
+## 2.2.15-beta.0
+
+### Patch Changes
+
 - [`5d4d50b`](https://github.com/vezham/heroui-v2/commit/5d4d50b12c263265225e515fc34e2f28cc3cccbe) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | init publish from v2 sync
 
 ## 2.2.14

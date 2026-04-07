@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-resize",
-  "version": "2.1.8",
+  "version": "2.1.9-beta.0",
   "description": "Hook that adds an event listener to the resize window event",
   "keywords": [
     "use-resize"

@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-aria-modal-overlay",
-  "version": "2.2.21",
+  "version": "2.2.22-beta.0",
   "description": "A custom implementation of react aria modal overlay, this removes the prevent scroll",
   "keywords": [
     "use-aria-modal-overlay"

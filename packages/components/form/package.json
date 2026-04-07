@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-form",
-  "version": "2.1.32",
+  "version": "2.1.33-beta.0",
   "description": "A form is a group of inputs that allows users submit data to a server and supports field validation errors.",
   "keywords": [
     "form"
@@ -34,8 +34,8 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@vx-oss/heroui-v2-system": ">=2.4.18",
-    "@vx-oss/heroui-v2-theme": ">=2.4.24",
+    "@vx-oss/heroui-v2-system": ">=2.4.29-beta.0",
+    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0",
     "react": ">=18",
     "react-dom": ">=18"
   },

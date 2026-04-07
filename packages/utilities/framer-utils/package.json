@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-framer-utils",
-  "version": "2.1.28",
+  "version": "2.1.29-beta.0",
   "description": "A set of framer motion transitions for react",
   "keywords": [
     "framer-utils"

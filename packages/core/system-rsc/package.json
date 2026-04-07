@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-system-rsc",
-  "version": "2.3.24",
+  "version": "2.3.25-beta.0",
   "description": "HeroUI system primitives compatibles with RSC imports",
   "keywords": [
     "system-rsc"
@@ -35,7 +35,7 @@
   },
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.24"
+    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0"
   },
   "devDependencies": {
     "@vx-oss/heroui-v2-theme": "workspace:*",
