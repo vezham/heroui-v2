@@ -11,7 +11,7 @@ import {useListBox as useAriaListbox} from "@react-aria/listbox";
 import {useProviderContext} from "@vx-oss/heroui-v2-system";
 import {listbox} from "@vx-oss/heroui-v2-theme";
 import {useListState} from "@react-stately/list";
-import {useDOMRef} from "@heroui/react-utils";
+import {useDOMRef} from "@vx-oss/heroui-v2-react-utils";
 import {useMemo} from "react";
 import {cn} from "@vx-oss/heroui-v2-theme";
 

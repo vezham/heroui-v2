@@ -60,8 +60,8 @@
     "version:bump": "bumpp",
     "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -s --commit-path .",
     "release": "changeset publish",
+    "release:og": "pnpm run test && pnpm run build && bumpp --execute='pnpm run changelog' --all",
     "version:canary": "changeset version --snapshot canary",
-    "release:-old": "pnpm run test && pnpm run build && bumpp --execute='pnpm run changelog' --all",
     "release:canary": "changeset publish --snapshot --no-git-tag --tag canary",
     "postinstall": "husky install && pnpm --filter @vx-oss/heroui-v2-theme build"
   },

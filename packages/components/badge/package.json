@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-badge",
-  "version": "2.2.19-beta.0",
+  "version": "2.2.18",
   "description": "Badges are used as a small numerical value or status descriptor for UI elements.",
   "keywords": [
     "badge"
@@ -36,8 +36,8 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0",
-    "@vx-oss/heroui-v2-system": ">=2.4.27-beta.0"
+    "@vx-oss/heroui-v2-theme": ">=2.4.24",
+    "@vx-oss/heroui-v2-system": ">=2.4.18"
   },
   "dependencies": {
     "@vx-oss/heroui-v2-shared-utils": "workspace:*",

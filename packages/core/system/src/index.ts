@@ -35,5 +35,5 @@ export {ProviderContext, useProviderContext} from "./provider-context";
 
 export {useLabelPlacement} from "./hooks";
 
-// wjdlz/NOTE: for @vx-oss/heroui-v2-ds
+// wjdlz/NOTE-FORK: for @vx-oss/heroui-v2-ds
 export {HeroUIProvider as VezhamProvider} from "./provider";

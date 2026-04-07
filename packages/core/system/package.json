@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-system",
-  "version": "2.4.27-beta.0",
+  "version": "2.4.28",
   "description": "HeroUI system primitives",
   "keywords": [
     "system"
@@ -54,8 +54,8 @@
     ]
   },
   "dependencies": {
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/system-rsc": "workspace:*",
+    "@vx-oss/heroui-v2-react-utils": "workspace:*",
+    "@vx-oss/heroui-v2-system-rsc": "workspace:*",
     "@react-aria/i18n": "3.12.16",
     "@react-aria/overlays": "3.31.2",
     "@react-aria/utils": "3.33.1"

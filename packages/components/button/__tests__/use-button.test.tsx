@@ -1,6 +1,6 @@
 import * as React from "react";
 import {renderHook} from "@testing-library/react";
-import {HeroUIProvider} from "@heroui/system";
+import {HeroUIProvider} from "@vx-oss/heroui-v2-system";
 
 import {useButton} from "../src/use-button";
 

@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-callback-ref",
-  "version": "2.1.9-beta.0",
+  "version": "2.1.8",
   "description": "React hook to persist any value between renders, but keeps it up-to-date if it changes.",
   "keywords": [
     "use-callback-ref"

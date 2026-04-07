@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-breadcrumbs",
-  "version": "2.2.25-beta.0",
+  "version": "2.2.25",
   "description": "Breadcrumbs display a hierarchy of links to the current page or resource in an application.",
   "keywords": [
     "breadcrumbs"
@@ -36,13 +36,13 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0",
-    "@vx-oss/heroui-v2-system": ">=2.4.27-beta.0"
+    "@vx-oss/heroui-v2-theme": ">=2.4.24",
+    "@vx-oss/heroui-v2-system": ">=2.4.18"
   },
   "dependencies": {
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
+    "@vx-oss/heroui-v2-react-utils": "workspace:*",
+    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
+    "@vx-oss/heroui-v2-shared-icons": "workspace:*",
     "@react-aria/focus": "3.21.5",
     "@react-aria/breadcrumbs": "3.5.32",
     "@react-types/breadcrumbs": "3.7.19"

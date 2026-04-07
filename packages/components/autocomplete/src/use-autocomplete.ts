@@ -8,11 +8,11 @@ import type {FilterFn} from "@react-stately/combobox";
 import type {ReactRef} from "@vx-oss/heroui-v2-react-utils";
 import type {ReactNode} from "react";
 import type {ComboBoxProps} from "@react-types/combobox";
-import type {PopoverProps} from "@heroui/popover";
-import type {ListboxProps} from "@heroui/listbox";
-import type {InputProps} from "@heroui/input";
-import type {ScrollShadowProps} from "@heroui/scroll-shadow";
-import type {ButtonProps} from "@heroui/button";
+import type {PopoverProps} from "@vx-oss/heroui-v2-popover";
+import type {ListboxProps} from "@vx-oss/heroui-v2-listbox";
+import type {InputProps} from "@vx-oss/heroui-v2-input";
+import type {ScrollShadowProps} from "@vx-oss/heroui-v2-scroll-shadow";
+import type {ButtonProps} from "@vx-oss/heroui-v2-button";
 import type {AsyncLoadable, Key, PressEvent} from "@react-types/shared";
 
 import {dataAttr, objectToDeps, chain, mergeProps} from "@vx-oss/heroui-v2-shared-utils";

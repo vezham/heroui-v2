@@ -11,7 +11,7 @@ import {useProviderContext} from "@vx-oss/heroui-v2-system";
 import {useMenu as useAriaMenu} from "@react-aria/menu";
 import {menu} from "@vx-oss/heroui-v2-theme";
 import {useTreeState} from "@react-stately/tree";
-import {useDOMRef} from "@heroui/react-utils";
+import {useDOMRef} from "@vx-oss/heroui-v2-react-utils";
 import {useMemo} from "react";
 import {cn} from "@vx-oss/heroui-v2-theme";
 

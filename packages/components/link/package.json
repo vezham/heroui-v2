@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-link",
-  "version": "2.2.26-beta.0",
+  "version": "2.2.26",
   "description": "Links allow users to click their way from page to page. This component is styled to resemble a hyperlink and semantically renders an &lt;a&gt;",
   "keywords": [
     "link"
@@ -36,14 +36,14 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0",
-    "@vx-oss/heroui-v2-system": ">=2.4.27-beta.0"
+    "@vx-oss/heroui-v2-theme": ">=2.4.24",
+    "@vx-oss/heroui-v2-system": ">=2.4.18"
   },
   "dependencies": {
-    "@heroui/shared-utils": "workspace:*",
-    "@heroui/shared-icons": "workspace:*",
-    "@heroui/react-utils": "workspace:*",
-    "@heroui/use-aria-link": "workspace:*",
+    "@vx-oss/heroui-v2-shared-utils": "workspace:*",
+    "@vx-oss/heroui-v2-shared-icons": "workspace:*",
+    "@vx-oss/heroui-v2-react-utils": "workspace:*",
+    "@vx-oss/heroui-v2-use-aria-link": "workspace:*",
     "@react-aria/focus": "3.21.5",
     "@react-types/link": "3.6.7"
   },
