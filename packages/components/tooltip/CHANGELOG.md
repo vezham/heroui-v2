@@ -1,5 +1,22 @@
 # @heroui/tooltip
 
+## 2.2.30-beta.0
+
+### Patch Changes
+
+- [`95e1706`](https://github.com/vezham/heroui-v2/commit/95e1706d4b7cb0715b5cf2f9c42205a71da86f31) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - vx-oss | sync bump
+
+- Updated dependencies [[`95e1706`](https://github.com/vezham/heroui-v2/commit/95e1706d4b7cb0715b5cf2f9c42205a71da86f31)]:
+  - @vx-oss/heroui-v2-system@2.4.29-beta.0
+  - @vx-oss/heroui-v2-theme@2.4.27-beta.0
+  - @vx-oss/heroui-v2-use-aria-overlay@2.0.7-beta.0
+  - @vx-oss/heroui-v2-use-safe-layout-effect@2.1.9-beta.0
+  - @vx-oss/heroui-v2-aria-utils@2.2.30-beta.0
+  - @vx-oss/heroui-v2-dom-animation@2.1.11-beta.0
+  - @vx-oss/heroui-v2-framer-utils@2.1.29-beta.0
+  - @vx-oss/heroui-v2-react-utils@2.1.15-beta.0
+  - @vx-oss/heroui-v2-shared-utils@2.1.13-beta.0
+
 ## 2.2.29
 
 ### Patch Changes
