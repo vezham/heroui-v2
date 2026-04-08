@@ -1,5 +1,22 @@
 # @heroui/dropdown
 
+## 3.0.0-beta.1
+
+### Minor Changes
+
+- [`3a94a87`](https://github.com/vezham/heroui-v2/commit/3a94a875e476ee3a74fb9d9e41406661b962b036) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - ver sync up
+
+### Patch Changes
+
+- Updated dependencies [[`3a94a87`](https://github.com/vezham/heroui-v2/commit/3a94a875e476ee3a74fb9d9e41406661b962b036)]:
+  - @vx-oss/heroui-v2-menu@3.0.0-beta.1
+  - @vx-oss/heroui-v2-popover@3.0.0-beta.1
+  - @vx-oss/heroui-v2-system@2.5.0-beta.1
+  - @vx-oss/heroui-v2-theme@2.5.0-beta.1
+  - @vx-oss/heroui-v2-aria-utils@2.3.0-beta.1
+  - @vx-oss/heroui-v2-react-utils@2.2.0-beta.1
+  - @vx-oss/heroui-v2-shared-utils@2.2.0-beta.1
+
 ## 2.3.33-beta.0
 
 ### Patch Changes

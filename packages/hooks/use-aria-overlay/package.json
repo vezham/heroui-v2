@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-aria-overlay",
-  "version": "2.0.7-beta.0",
+  "version": "2.1.0-beta.1",
   "description": "A custom implementation of react aria overlay",
   "keywords": [
     "use-aria-overlay"

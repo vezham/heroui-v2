@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-draggable",
-  "version": "2.1.21-beta.0",
+  "version": "2.2.0-beta.1",
   "description": "This hook can provide drag and drop interaction",
   "keywords": [
     "use-draggable"

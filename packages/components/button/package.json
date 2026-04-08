@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-button",
-  "version": "2.2.33-beta.0",
+  "version": "3.0.0-beta.1",
   "description": "Buttons allow users to perform actions and choose with a single tap.",
   "keywords": [
     "button"
@@ -37,8 +37,8 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0",
-    "@vx-oss/heroui-v2-system": ">=2.4.29-beta.0"
+    "@vx-oss/heroui-v2-theme": ">=2.5.0-beta.1",
+    "@vx-oss/heroui-v2-system": ">=2.5.0-beta.1"
   },
   "dependencies": {
     "@vx-oss/heroui-v2-shared-utils": "workspace:*",

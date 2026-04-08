@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-is-mounted",
-  "version": "2.1.9-beta.0",
+  "version": "2.2.0-beta.1",
   "description": "This hook can be used to render client-based components or run client logic",
   "keywords": [
     "use-is-mounted"

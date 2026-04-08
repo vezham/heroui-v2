@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-date-input",
-  "version": "2.3.33-beta.0",
+  "version": "3.0.0-beta.1",
   "description": "A date input allows users to enter and edit date and time values using a keyboard.",
   "keywords": [
     "date-field"
@@ -34,8 +34,8 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@vx-oss/heroui-v2-system": ">=2.4.29-beta.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0",
+    "@vx-oss/heroui-v2-system": ">=2.5.0-beta.1",
+    "@vx-oss/heroui-v2-theme": ">=2.5.0-beta.1",
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },

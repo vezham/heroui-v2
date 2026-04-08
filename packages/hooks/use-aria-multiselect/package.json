@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-aria-multiselect",
-  "version": "2.4.22-beta.0",
+  "version": "2.5.0-beta.1",
   "description": "Provides the behavior and accessibility implementation for a multi-select component.",
   "keywords": [
     "use-aria-multiselect"
