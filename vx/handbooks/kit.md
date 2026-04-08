@@ -2,7 +2,7 @@
 
 - @vx/ws:changeset:update-versions | sync pkg ver with NPM
 
-1. vx, .vezham, CHANGELOG.md, README.md
+1. vx, .vezham, CHANGELOG.md, README.md, sync.yml
    [*] heroui-inc/heroui [->] vezham/heroui-v2 [!githubusercontent]
    [*] github.com/heroui-inc/heroui [->] github.com/vezham/heroui-v2
 
