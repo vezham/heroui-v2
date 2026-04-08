@@ -1,5 +1,23 @@
 # @heroui/navbar
 
+## 3.0.0-beta.1
+
+### Minor Changes
+
+- [`3a94a87`](https://github.com/vezham/heroui-v2/commit/3a94a875e476ee3a74fb9d9e41406661b962b036) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - ver sync up
+
+### Patch Changes
+
+- Updated dependencies [[`3a94a87`](https://github.com/vezham/heroui-v2/commit/3a94a875e476ee3a74fb9d9e41406661b962b036)]:
+  - @vx-oss/heroui-v2-system@2.5.0-beta.1
+  - @vx-oss/heroui-v2-theme@2.5.0-beta.1
+  - @vx-oss/heroui-v2-use-resize@2.2.0-beta.1
+  - @vx-oss/heroui-v2-use-scroll-position@2.2.0-beta.1
+  - @vx-oss/heroui-v2-dom-animation@2.2.0-beta.1
+  - @vx-oss/heroui-v2-framer-utils@2.2.0-beta.1
+  - @vx-oss/heroui-v2-react-utils@2.2.0-beta.1
+  - @vx-oss/heroui-v2-shared-utils@2.2.0-beta.1
+
 ## 2.2.31-beta.0
 
 ### Patch Changes

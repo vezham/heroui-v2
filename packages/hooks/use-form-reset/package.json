@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-use-form-reset",
-  "version": "2.0.2-beta.0",
+  "version": "2.1.0-beta.1",
   "description": "use-form-reset hook from `@react-aria` utils",
   "keywords": [
     "use-form-reset"

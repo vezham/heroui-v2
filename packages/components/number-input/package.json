@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-number-input",
-  "version": "2.0.24-beta.0",
+  "version": "3.0.0-beta.1",
   "description": "The numeric input component is designed for users to enter a number, and increase or decrease the value using stepper buttons",
   "keywords": [
     "input",
@@ -38,8 +38,8 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@vx-oss/heroui-v2-system": ">=2.4.29-beta.0",
-    "@vx-oss/heroui-v2-theme": ">=2.4.27-beta.0"
+    "@vx-oss/heroui-v2-system": ">=2.5.0-beta.1",
+    "@vx-oss/heroui-v2-theme": ">=2.5.0-beta.1"
   },
   "dependencies": {
     "@vx-oss/heroui-v2-form": "workspace:*",

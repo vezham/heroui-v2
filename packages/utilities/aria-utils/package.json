@@ -1,6 +1,6 @@
 {
   "name": "@vx-oss/heroui-v2-aria-utils",
-  "version": "2.2.30-beta.0",
+  "version": "2.3.0-beta.1",
   "description": "A package for managing @react-aria HeroUI utils.",
   "keywords": [
     "aria-utils"

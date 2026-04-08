@@ -1,5 +1,64 @@
 # @heroui/react
 
+## 2.9.0-beta.1
+
+### Minor Changes
+
+- [`3a94a87`](https://github.com/vezham/heroui-v2/commit/3a94a875e476ee3a74fb9d9e41406661b962b036) Thanks [@vx-vigneshwaran](https://github.com/vx-vigneshwaran)! - ver sync up
+
+### Patch Changes
+
+- Updated dependencies [[`3a94a87`](https://github.com/vezham/heroui-v2/commit/3a94a875e476ee3a74fb9d9e41406661b962b036)]:
+  - @vx-oss/heroui-v2-accordion@3.0.0-beta.1
+  - @vx-oss/heroui-v2-alert@3.0.0-beta.1
+  - @vx-oss/heroui-v2-autocomplete@3.0.0-beta.1
+  - @vx-oss/heroui-v2-avatar@3.0.0-beta.1
+  - @vx-oss/heroui-v2-badge@3.0.0-beta.1
+  - @vx-oss/heroui-v2-breadcrumbs@3.0.0-beta.1
+  - @vx-oss/heroui-v2-button@3.0.0-beta.1
+  - @vx-oss/heroui-v2-calendar@3.0.0-beta.1
+  - @vx-oss/heroui-v2-card@3.0.0-beta.1
+  - @vx-oss/heroui-v2-checkbox@3.0.0-beta.1
+  - @vx-oss/heroui-v2-chip@3.0.0-beta.1
+  - @vx-oss/heroui-v2-code@3.0.0-beta.1
+  - @vx-oss/heroui-v2-date-input@3.0.0-beta.1
+  - @vx-oss/heroui-v2-date-picker@3.0.0-beta.1
+  - @vx-oss/heroui-v2-divider@3.0.0-beta.1
+  - @vx-oss/heroui-v2-drawer@3.0.0-beta.1
+  - @vx-oss/heroui-v2-dropdown@3.0.0-beta.1
+  - @vx-oss/heroui-v2-form@3.0.0-beta.1
+  - @vx-oss/heroui-v2-image@3.0.0-beta.1
+  - @vx-oss/heroui-v2-input@3.0.0-beta.1
+  - @vx-oss/heroui-v2-input-otp@3.0.0-beta.1
+  - @vx-oss/heroui-v2-kbd@3.0.0-beta.1
+  - @vx-oss/heroui-v2-link@3.0.0-beta.1
+  - @vx-oss/heroui-v2-listbox@3.0.0-beta.1
+  - @vx-oss/heroui-v2-menu@3.0.0-beta.1
+  - @vx-oss/heroui-v2-modal@3.0.0-beta.1
+  - @vx-oss/heroui-v2-navbar@3.0.0-beta.1
+  - @vx-oss/heroui-v2-number-input@3.0.0-beta.1
+  - @vx-oss/heroui-v2-pagination@3.0.0-beta.1
+  - @vx-oss/heroui-v2-popover@3.0.0-beta.1
+  - @vx-oss/heroui-v2-progress@3.0.0-beta.1
+  - @vx-oss/heroui-v2-radio@3.0.0-beta.1
+  - @vx-oss/heroui-v2-ripple@3.0.0-beta.1
+  - @vx-oss/heroui-v2-scroll-shadow@3.0.0-beta.1
+  - @vx-oss/heroui-v2-select@3.0.0-beta.1
+  - @vx-oss/heroui-v2-skeleton@3.0.0-beta.1
+  - @vx-oss/heroui-v2-slider@3.0.0-beta.1
+  - @vx-oss/heroui-v2-snippet@3.0.0-beta.1
+  - @vx-oss/heroui-v2-spacer@3.0.0-beta.1
+  - @vx-oss/heroui-v2-spinner@3.0.0-beta.1
+  - @vx-oss/heroui-v2-switch@3.0.0-beta.1
+  - @vx-oss/heroui-v2-table@3.0.0-beta.1
+  - @vx-oss/heroui-v2-tabs@3.0.0-beta.1
+  - @vx-oss/heroui-v2-toast@3.0.0-beta.1
+  - @vx-oss/heroui-v2-tooltip@3.0.0-beta.1
+  - @vx-oss/heroui-v2-user@3.0.0-beta.1
+  - @vx-oss/heroui-v2-system@2.5.0-beta.1
+  - @vx-oss/heroui-v2-theme@2.5.0-beta.1
+  - @vx-oss/heroui-v2-framer-utils@2.2.0-beta.1
+
 ## 2.8.11-beta.0
 
 ### Patch Changes
